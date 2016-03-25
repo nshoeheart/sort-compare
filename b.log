@@ -1,0 +1,585 @@
+
+Running problem 2...
+
+Generating 10 sets of 1000000 ints from 1 - 1000
+Running algorithms for base case
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 95 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 59 ms
+
+Running algorithms for isSorted check on sub-arrays
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 95 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 46 ms
+
+Running algorithms for insertSort for sub-arrays < 100 in length
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 69 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 67 ms
+
+Running algorithms for both isSorted check and insertSort on sub-arrays
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 69 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 47 ms
+
+Generating 10 sets of 2000000 ints from 1 - 1000
+Running algorithms for base case
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 187 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 115 ms
+
+Running algorithms for isSorted check on sub-arrays
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 193 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 90 ms
+
+Running algorithms for insertSort for sub-arrays < 100 in length
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 140 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 136 ms
+
+Running algorithms for both isSorted check and insertSort on sub-arrays
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 139 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 93 ms
+
+Generating 10 sets of 4000000 ints from 1 - 1000
+Running algorithms for base case
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 382 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 235 ms
+
+Running algorithms for isSorted check on sub-arrays
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 393 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 177 ms
+
+Running algorithms for insertSort for sub-arrays < 100 in length
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 285 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 277 ms
+
+Running algorithms for both isSorted check and insertSort on sub-arrays
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 286 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 180 ms
+
+Generating 10 sets of 1000000 ints from 1 - 1000000
+Running algorithms for base case
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 115 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 91 ms
+
+Running algorithms for isSorted check on sub-arrays
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 119 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 94 ms
+
+Running algorithms for insertSort for sub-arrays < 100 in length
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 91 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 74 ms
+
+Running algorithms for both isSorted check and insertSort on sub-arrays
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 93 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 73 ms
+
+Generating 10 sets of 2000000 ints from 1 - 1000000
+Running algorithms for base case
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 240 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 184 ms
+
+Running algorithms for isSorted check on sub-arrays
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 246 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 194 ms
+
+Running algorithms for insertSort for sub-arrays < 100 in length
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 192 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 153 ms
+
+Running algorithms for both isSorted check and insertSort on sub-arrays
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 195 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 160 ms
+
+Generating 10 sets of 4000000 ints from 1 - 1000000
+Running algorithms for base case
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 499 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 371 ms
+
+Running algorithms for isSorted check on sub-arrays
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 511 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 377 ms
+
+Running algorithms for insertSort for sub-arrays < 100 in length
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 401 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 320 ms
+
+Running algorithms for both isSorted check and insertSort on sub-arrays
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+after StdMergeSort isSorted = true
+Average standard merge sort time = 406 ms
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+after quickSort isSorted = true
+Average quick sort time = 319 ms
+

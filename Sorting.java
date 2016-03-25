@@ -13,21 +13,37 @@ public class Sorting {
     private static boolean medianQuickSort = false;
 
     private static boolean isSorted(int[] arr, int lo, int hi) {
-        for (int i = lo; i < (hi - 1); i++) {
-            if (arr[i] > arr[i + 1]) return false;
+//System.out.println( "isSorted lo = " + lo + ", hi = " + hi );
+        //for (int i = lo; i <= hi; i++) {
+          //System.out.print( arr[ i ] + "," );
+        //}
+        //System.out.println();
+        boolean result = true;
+        for (int i = lo; i <= (hi - 1); i++) {
+            if (arr[i] > arr[i + 1]) {
+              result = false;
+              break;
+            }
         }
-        return true;
+//System.out.println( "result = " + result );
+        return result;
     }
 
     private static void printArray(int[] arr, String msg) {
+      System.out.println(
+          msg + 
+          " isSorted = " + isSorted( arr, 0, arr.length - 1 )
+      );
+/*
         System.out.print(
           msg + 
           " isSorted = " + isSorted( arr, 0, arr.length - 1 ) +
           " [" + arr[0]);
-        for (int i = 1; i < 5 /* arr.length */; i++) {
+        for (int i = 1; i < arr.length; i++) {
             System.out.print(", " + arr[i]);
         }
         System.out.println("]");
+*/
     }
 
     public static void insertSort(int[] arr, int left, int right) {
@@ -320,7 +336,7 @@ public class Sorting {
             System.arraycopy(arr, 0, arrayToSort, 0, size);
             System.arraycopy(arr, 0, tempArr, 0, size);
 
-            printArray(arrayToSort, "before StdMergeSort");
+            // printArray(arrayToSort, "before StdMergeSort");
             start = System.currentTimeMillis();
             mergeSort(arrayToSort, 0, size - 1);
             totalTime += (System.currentTimeMillis() - start);
@@ -340,7 +356,7 @@ public class Sorting {
             System.arraycopy(arr, 0, arrayToSort, 0, size);
             System.arraycopy(arr, 0, tempArr, 0, size);
 
-            printArray(arrayToSort, "before BUMergeSort");
+            // printArray(arrayToSort, "before BUMergeSort");
             start = System.currentTimeMillis();
             bottomUpMergeSort(arrayToSort);
             totalTime += (System.currentTimeMillis() - start);
@@ -359,11 +375,11 @@ public class Sorting {
             System.arraycopy(arr, 0, arrayToSort, 0, size);
 
             start = System.currentTimeMillis();
-            printArray(arrayToSort, "before quickSort");
+            // printArray(arrayToSort, "before quickSort");
             quickSort(arrayToSort, 0, size - 1);
             totalTime += (System.currentTimeMillis() - start);
             printArray(arrayToSort, "after quickSort");
-            System.out.println(isSorted(arrayToSort, 0, size - 1));
+            //System.out.println(isSorted(arrayToSort, 0, size - 1));
         }
 
         System.out.println(String.format("Average quick sort time = %d ms", (totalTime / arrays.length)));
@@ -377,7 +393,7 @@ public class Sorting {
         for (int[] arr : arrays) {
             System.arraycopy(arr, 0, arrayToSort, 0, size);
 
-            printArray(arrayToSort, "before builtinSort");
+            // printArray(arrayToSort, "before builtinSort");
             start = System.currentTimeMillis();
             Arrays.sort(arrayToSort);
             totalTime += (System.currentTimeMillis() - start);
@@ -395,7 +411,7 @@ public class Sorting {
         for (int[] arr : arrays) {
             System.arraycopy(arr, 0, arrayToSort, 0, size);
 
-            printArray(arrayToSort, "before heapsorts");
+            // printArray(arrayToSort, "before heapsorts");
             start = System.currentTimeMillis();
             heapSort(arrayToSort);
             totalTime += (System.currentTimeMillis() - start);
@@ -413,7 +429,7 @@ public class Sorting {
         for (int[] arr : arrays) {
             System.arraycopy(arr, 0, arrayToSort, 0, size);
 
-            printArray(arrayToSort, "before insertionSort");
+            // printArray(arrayToSort, "before insertionSort");
             start = System.currentTimeMillis();
             insertionSort(arrayToSort);
             totalTime += (System.currentTimeMillis() - start);
@@ -427,11 +443,11 @@ public class Sorting {
         randomGenerator = new Random();
         int numArrays = 10;
 
-        problem1(numArrays);
+        // problem1(numArrays);
         problem2(numArrays);
-        problem3(numArrays);
-        problem4(numArrays);
-        problem5(numArrays);
+        // problem3(numArrays);
+        // problem4(numArrays);
+        // problem5(numArrays);
     }
 
     private static void problem1(int numArrays) {
@@ -469,6 +485,8 @@ public class Sorting {
 
         int[] numIntsOpts = {1000000, 2000000, 4000000};
         int[] intRangeOpts = {1000, 1000000};
+        //int[] numIntsOpts = {200};
+        //int[] intRangeOpts = {1000};
 
         for (int intRange : intRangeOpts) {
             for (int numInts : numIntsOpts) {
@@ -487,6 +505,7 @@ public class Sorting {
                 runStdMergeSorts(arrays, numInts);
                 runQuickSorts(arrays, numInts);
 
+ // this one fails
                 // Run algorithms for isSorted but not insertSort
                 System.out.println("\nRunning algorithms for isSorted check on sub-arrays");
                 stopRecursionIfSorted = true;
@@ -494,6 +513,7 @@ public class Sorting {
                 runStdMergeSorts(arrays, numInts);
                 runQuickSorts(arrays, numInts);
 
+// this one works:
                 // Run algorithms for insertSort but not isSorted
                 System.out.println("\nRunning algorithms for insertSort for sub-arrays < 100 in length");
                 stopRecursionIfSorted = false;
