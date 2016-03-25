@@ -234,12 +234,20 @@ public class Sorting {
 
     private static void problem1() {
         int numArrays = 100;
-        int numInts = 1000000;
-        int intRange = 1000;
+        int[] numIntsOpts = {1000000, 2000000, 4000000};
+        int[] intRangeOpts = {1000, 1000000};
 
-        int[][] arrays = new int[numArrays][numInts];
-        for (int[] arr : arrays) {
-            System.arraycopy(getRandomArray(intRange, numInts), 0, arr, 0, numInts);
+        for (int intRange : intRangeOpts) {
+            for (int numInts : numIntsOpts) {
+                System.out.println(String.format("Generating %d sets of %d ints between 0 and %d", numArrays, numInts, intRange));
+                int[][] arrays = new int[numArrays][numInts];
+
+                for (int[] arr : arrays) {
+                    System.arraycopy(getRandomArray(intRange, numInts), 0, arr, 0, numInts);
+                }
+            }
         }
+        
+        
     }
 }
