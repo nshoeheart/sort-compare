@@ -1,0 +1,1 @@
+grep false a.log | grep -i after
