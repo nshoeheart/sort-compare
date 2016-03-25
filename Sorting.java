@@ -4,6 +4,8 @@ import java.util.Arrays;
 public class Sorting {
 
     private static Random randomGenerator;
+    private static int[] tempArr;
+    private static int numComparisons;
 
     private static void printArray(int[] arr, String msg) {
         System.out.print(msg + " [" + arr[0]);
@@ -81,13 +83,10 @@ public class Sorting {
     }
 
     private static void merge(int[] arr, int low, int middle, int high) {
-        int[] tempArr = new int[arr.length];
-
         // Copy first part into the arrCopy array
         for (int i = low; i <= middle; i++) {
             tempArr[i] = arr[i];
         }
-        //System.arraycopy(arr, low, tempArr, low, middle-low); //maybe?
 
         int i = low;
         int j = middle + 1;
@@ -96,6 +95,7 @@ public class Sorting {
         // Copy the smallest values from either the left or the right side back
         // to the original array
         while (i <= middle && j <= high) {
+            numComparisons++;
             if (tempArr[i] <= arr[j]) {
                 arr[k] = tempArr[i];
                 i++;
@@ -112,7 +112,25 @@ public class Sorting {
             k++;
             i++;
         }
+    }
 
+    private static void bottomUpMergeSort(int[] arr) {
+        int t = 1;
+
+        while (t < arr.length) {
+            int s = t;
+            t = 2*s;
+            int i = 0;
+
+            while (i + t <= arr.length) {
+                merge(arr, i, i + s - 1, i + t - 1);
+                i += t;
+            }
+
+            if (i + s < arr.length) {
+                merge(arr, i, i + s - 1, arr.length - 1);
+            }
+        }
     }
 
     private static void quicksort(int[] arr, int low, int high) {
@@ -219,7 +237,8 @@ public class Sorting {
 
     public static void main(String[] args) {
         randomGenerator = new Random();
-        problem1();
+        //problem1();
+        problem2();
     }
 
     private static int[] getRandomArray(int max, int size) {
@@ -239,15 +258,55 @@ public class Sorting {
 
         for (int intRange : intRangeOpts) {
             for (int numInts : numIntsOpts) {
+                // Generate arrays to sort
                 System.out.println(String.format("Generating %d sets of %d ints between 0 and %d", numArrays, numInts, intRange));
                 int[][] arrays = new int[numArrays][numInts];
 
                 for (int[] arr : arrays) {
                     System.arraycopy(getRandomArray(intRange, numInts), 0, arr, 0, numInts);
                 }
+
+                int numStanMergeSorts = 0;
+                int numBUMergeSorts = 0;
+                int totalStanMergeTime = 0;
+                int totalBUMergeTime = 0;
+                long start;
+                int[] arrayToSort = new int[numInts]; // array to pass as parameter to merging algorithms
+                tempArr = new int[numInts]; // array to store temp arrays used in merge()
+
+                // Sort arrays with standard merge sort
+                for (int[] arr : arrays) {
+                    numComparisons = 0;
+                    System.arraycopy(arr, 0, arrayToSort, 0, arr.length);
+                    System.arraycopy(arr, 0, tempArr, 0, arr.length);
+
+                    start = System.currentTimeMillis();
+                    mergesort(arrayToSort, 0, arrayToSort.length - 1);
+                    totalStanMergeTime += System.currentTimeMillis() - start;
+                    numStanMergeSorts++;
+                }
+                System.out.println("Average standard merge sort time = " + totalStanMergeTime/numStanMergeSorts + " ms");
+                System.out.println("Average number of comparisons = " + numComparisons/numStanMergeSorts);
+
+                // Sort arrays with bottom-up merge sort
+                for (int[] arr : arrays) {
+                    numComparisons = 0;
+                    System.arraycopy(arr, 0, arrayToSort, 0, arr.length);
+                    System.arraycopy(arr, 0, tempArr, 0, arr.length);
+
+                    start = System.currentTimeMillis();
+                    bottomUpMergeSort(arrayToSort);
+                    totalBUMergeTime += System.currentTimeMillis() - start;
+                    numBUMergeSorts++;
+                }
+                System.out.println("Average bottom-up merge sort time = " + totalBUMergeTime/numBUMergeSorts + " ms");
+                System.out.println("Average number of comparisons = " + numComparisons/numBUMergeSorts);
+                System.out.println();
             }
         }
-        
+    }
+
+    private static void problem2() {
         
     }
 }
