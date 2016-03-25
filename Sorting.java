@@ -245,7 +245,7 @@ public class Sorting {
 
     public static void main(String[] args) {
         randomGenerator = new Random();
-        //problem1();
+        problem1();
         problem2();
     }
 
@@ -259,8 +259,62 @@ public class Sorting {
         return arr;
     }
 
+    private static void runStdMergeSorts(int[][] arrays, int size) {
+        int[] arrayToSort = new int[size];
+        tempArr = new int[size];
+        long start;
+        long totalTime = 0;
+
+        for (int[] arr : arrays) {
+            System.arraycopy(arr, 0, arrayToSort, 0, size);
+            System.arraycopy(arr, 0, tempArr, 0, size);
+
+            start = System.currentTimeMillis();
+            mergeSort(arrayToSort, 0, size - 1);
+            totalTime += (System.currentTimeMillis() - start);
+        }
+
+        System.out.println(String.format("Average standard merge sort time = %d ms", (totalTime / arrays.length)));
+    }
+
+    private static void runBUMergeSorts(int[][] arrays, int size) {
+        int[] arrayToSort = new int[size];
+        tempArr = new int[size];
+        long start;
+        long totalTime = 0;
+
+        for (int[] arr : arrays) {
+            System.arraycopy(arr, 0, arrayToSort, 0, size);
+            System.arraycopy(arr, 0, tempArr, 0, size);
+
+            start = System.currentTimeMillis();
+            bottomUpMergeSort(arrayToSort);
+            totalTime += (System.currentTimeMillis() - start);
+        }
+
+        System.out.println(String.format("Average bottom-up merge sort time = %d ms", (totalTime / arrays.length)));
+    }
+
+    private static void runQuickSorts(int[][] arrays, int size) {
+        int[] arrayToSort = new int[size];
+        long start;
+        long totalTime = 0;
+
+        for (int[] arr : arrays) {
+            System.arraycopy(arr, 0, arrayToSort, 0, size);
+
+            start = System.currentTimeMillis();
+            quickSort(arrayToSort, 0, size - 1);
+            totalTime += (System.currentTimeMillis() - start);
+        }
+
+        System.out.println(String.format("Average quick sort time = %d ms", (totalTime / arrays.length)));
+    }
+
     private static void problem1() {
-        int numArrays = 100;
+        System.out.println("Running problem 1...");
+
+        int numArrays = 10;
         int[] numIntsOpts = {1000000, 2000000, 4000000};
         int[] intRangeOpts = {1000, 1000000};
 
@@ -274,49 +328,24 @@ public class Sorting {
                     System.arraycopy(getRandomArray(intRange, numInts), 0, arr, 0, numInts);
                 }
 
-                int numStanMergeSorts = 0;
-                int numBUMergeSorts = 0;
-                int totalStanMergeTime = 0;
-                int totalBUMergeTime = 0;
-                long start;
-                int[] arrayToSort = new int[numInts]; // array to pass as parameter to merging algorithms
-                tempArr = new int[numInts]; // array to store temp arrays used in merge()
-
                 // Sort arrays with standard merge sort
-                for (int[] arr : arrays) {
-                    numComparisons = 0;
-                    System.arraycopy(arr, 0, arrayToSort, 0, arr.length);
-                    System.arraycopy(arr, 0, tempArr, 0, arr.length);
-
-                    start = System.currentTimeMillis();
-                    mergeSort(arrayToSort, 0, arrayToSort.length - 1);
-                    mergeSort(arrayToSort, 0, arrayToSort.length - 1);
-                    totalStanMergeTime += System.currentTimeMillis() - start;
-                    numStanMergeSorts++;
-                }
-                System.out.println("Average standard merge sort time = " + totalStanMergeTime / numStanMergeSorts + " ms");
-                System.out.println("Average number of comparisons = " + numComparisons / numStanMergeSorts);
+                numComparisons = 0;
+                runStdMergeSorts(arrays, numInts);
+                System.out.println(String.format("Average number of comparisons = %d", numComparisons / numInts));
 
                 // Sort arrays with bottom-up merge sort
-                for (int[] arr : arrays) {
-                    numComparisons = 0;
-                    System.arraycopy(arr, 0, arrayToSort, 0, arr.length);
-                    System.arraycopy(arr, 0, tempArr, 0, arr.length);
-
-                    start = System.currentTimeMillis();
-                    bottomUpMergeSort(arrayToSort);
-                    totalBUMergeTime += System.currentTimeMillis() - start;
-                    numBUMergeSorts++;
-                }
-                System.out.println("Average bottom-up merge sort time = " + totalBUMergeTime / numBUMergeSorts + " ms");
-                System.out.println("Average number of comparisons = " + numComparisons / numBUMergeSorts);
+                numComparisons = 0;
+                runBUMergeSorts(arrays, numInts);
+                System.out.println(String.format("Average number of comparisons = %d", numComparisons / numInts));
                 System.out.println();
             }
         }
     }
 
     private static void problem2() {
-        int numArrays = 100;
+        System.out.println("Running problem 2...");
+
+        int numArrays = 10;
         int[] numIntsOpts = {1000000, 2000000, 4000000};
         int[] intRangeOpts = {1000, 1000000};
 
@@ -330,50 +359,32 @@ public class Sorting {
                     System.arraycopy(getRandomArray(intRange, numInts), 0, arr, 0, numInts);
                 }
 
-                int[] arrayToSort = new int[numInts]; // array to pass as parameter to merging algorithms
-                tempArr = new int[numInts]; // array to store temp arrays used in merge()
-                long start, totalTime;
-
                 // Run algorithms for base case
                 System.out.println("Running algorithms for base case");
-                
+                runStdMergeSorts(arrays, numInts);
+                runQuickSorts(arrays, numInts);
 
                 // Run algorithms for isSorted but not insertSort
-                System.out.println("Running algorithms for isSorted check");
+                System.out.println("\nRunning algorithms for isSorted check on sub-arrays");
                 stopRecursionIfSorted = true;
-
-                // Sort arrays with standard merge sort
-                totalTime = 0;
-                for (int[] arr : arrays) {
-                    System.arraycopy(arr, 0, arrayToSort, 0, arr.length);
-                    System.arraycopy(arr, 0, tempArr, 0, arr.length);
-
-                    start = System.currentTimeMillis();
-                    mergeSort(arrayToSort, 0, arrayToSort.length - 1);
-                    mergeSort(arrayToSort, 0, arrayToSort.length - 1);
-                    totalTime += System.currentTimeMillis() - start;
-                }
-                System.out.println("Average standard merge sort time = " + totalTime / arrays.length + " ms");
+                runStdMergeSorts(arrays, numInts);
+                runQuickSorts(arrays, numInts);
 
                 // Run algorithms for insertSort but not isSorted
+                System.out.println("\nRunning algorithms for insertSort for sub-arrays < 100 in length");
                 stopRecursionIfSorted = false;
                 useInsertSortForShorties = true;
+                runStdMergeSorts(arrays, numInts);
+                runQuickSorts(arrays, numInts);
 
                 // Run algorithms for both isSorted and insertSort
+                System.out.println("\nRunning algorithms for both isSorted check and insertSort on sub-arrays");
                 stopRecursionIfSorted = true;
+                runStdMergeSorts(arrays, numInts);
+                runQuickSorts(arrays, numInts);
+
+                System.out.println();
             }
         }
-
-        // Run algorithms for base case
-
-        // Run algorithms for isSorted but not insertSort
-        stopRecursionIfSorted = true;
-
-        // Run algorithms for insertSort but not isSorted
-        stopRecursionIfSorted = false;
-        useInsertSortForShorties = true;
-
-        // Run algorithms for both isSorted and insertSort
-        stopRecursionIfSorted = true;
     }
 }
