@@ -1,5 +1,4 @@
 import java.util.Random;
-import java.util.Arrays;
 
 public class Sorting {
 
@@ -10,11 +9,11 @@ public class Sorting {
     private static boolean stopRecursionIfSorted = false;
     private static boolean useInsertSortForShorties = false;
 
-    private static boolean isSorted( int[] arr, int lo, int hi ) {
-      for( int i = lo; i < (hi - 1); i++ ) {
-        if ( arr[ i ] > arr[ i+1 ] ) return false;
-      }
-      return true;
+    private static boolean isSorted(int[] arr, int lo, int hi) {
+        for (int i = lo; i < (hi - 1); i++) {
+            if (arr[i] > arr[i + 1]) return false;
+        }
+        return true;
     }
 
     private static void printArray(int[] arr, String msg) {
@@ -46,7 +45,7 @@ public class Sorting {
     } // end insertionSort()
 
 
-    public static void maxheapify(int[] arr, int i, int n) {
+    public static void maxHeapify(int[] arr, int i, int n) {
         // Pre: the left and right subtrees of node i are max heaps.
         // Post: make the tree rooted at node i as max heap of n nodes.
         int max = i;
@@ -58,7 +57,7 @@ public class Sorting {
 
         if (max != i) {  // node i is not maximal
             exchange(arr, i, max);
-            maxheapify(arr, max, n);
+            maxHeapify(arr, max, n);
         }
     }
 
@@ -68,95 +67,63 @@ public class Sorting {
         arr[j] = t;
     }
 
-    public static void heapsort(int[] arr) {
+    public static void heapSort(int[] arr) {
         // Build an in-place bottom up max heap
-        for (int i = arr.length / 2; i >= 0; i--) maxheapify(arr, i, arr.length);
+        for (int i = arr.length / 2; i >= 0; i--) maxHeapify(arr, i, arr.length);
 
         for (int i = arr.length - 1; i > 0; i--) {
             exchange(arr, 0, i);       // move max from heap to position i.
-            maxheapify(arr, 0, i);     // adjust heap
+            maxHeapify(arr, 0, i);     // adjust heap
         }
     }
 
-    private static void mergesort(int[] arr, int low, int high) {
+    private static void mergeSort(int[] arr, int low, int high) {
         // Check if low is smaller then high, if not then the array is sorted
         if (low < high) {
             // Get the index of the element which is in the middle
             int middle = low + (high - low) / 2;
 
-        if ( stopRecursionIfSorted ) {
-            if ( ! isSorted( arr, low, middle ) ) {
+            if (stopRecursionIfSorted) {
+                if (!isSorted(arr, low, middle)) {
+                    if (useInsertSortForShorties && (middle - low < 100)) {
+                        insertSort(arr, low, middle);
+                    } else {
+                        // don't useInsertSortForShorties
+                        // Sort the left side of the array
+                        mergeSort(arr, low, middle);
+                    }
+                }
 
-              if ( useInsertSortForShorties ) {
-                if ( middle - low >= 100 ) {
-                  // Sort the left side of the array
-                  mergesort(arr, low, middle);
+                if (!isSorted(arr, middle + 1, high)) {
+                    if (useInsertSortForShorties && (high - (middle + 1) < 100)) {
+                        insertSort(arr, middle + 1, high);
+                    } else {
+                        // don't useInsertSortForShorties
+                        // Sort the right side of the array
+                        mergeSort(arr, middle + 1, high);
+                    }
                 }
-                else
-                {
-                  insertSort(arr, low, middle);
+            } else {
+                if (useInsertSortForShorties && (middle - low < 100)) {
+                    insertSort(arr, low, middle);
+                } else {
+                    // don't useInsertSortForShorties
+                    // Sort the left side of the array
+                    mergeSort(arr, low, middle);
                 }
-              }
-              else 
-              {
-                // don't useInsertSortForShorties
-                // Sort the left side of the array
-                mergesort(arr, low, middle);
-              }
+
+                if (useInsertSortForShorties && (high - (middle + 1) < 100)) {
+                    insertSort(arr, middle + 1, high);
+                } else {
+                    // don't useInsertSortForShorties
+                    // Sort the right side of the array
+                    mergeSort(arr, middle + 1, high);
+                }
             }
 
-            if ( ! isSorted( arr, middle + 1, high ) ) {
-              if ( useInsertSortForShorties ) {
-                if ( high - ( middle + 1 ) >= 100 ) {
-                  // Sort the right side of the array
-                  mergesort(arr, middle + 1, high);
-                }
-                else
-                {
-                  insertSort( arr, middle + 1, high );
-                }
-              }
-              else {
-                // don't useInsertSortForShorties
-                // Sort the right side of the array
-                mergesort(arr, middle + 1, high);
-              }
-            }
+            // Combine them both
+            merge(arr, low, middle, high);
         }
-        else
-        {
-            if ( useInsertSortForShorties ) {
-              // Sort the left side of the array
-              if ( middle - low >= 100 ) {
-                // Sort the left side of the array
-                mergesort(arr, low, middle);
-              }
-              else
-              {
-                insertSort(arr, low, middle);
-              }
-              if ( high - ( middle + 1 ) >= 100 ) {  
-                // Sort the right side of the array
-                mergesort(arr, middle + 1, high);
-              }
-              else
-              {
-                // Sort the right side of the array
-                insertSort(arr, middle + 1, high);
-              }
-            }
-            else
-            {
-              // Sort the left side of the array
-              mergesort(arr, low, middle);
-              // Sort the right side of the array
-              mergesort(arr, middle + 1, high);
-            }
-        }
-
-        // Combine them both
-        merge(arr, low, middle, high);
-      }
     }
 
     private static void merge(int[] arr, int low, int middle, int high) {
@@ -196,7 +163,7 @@ public class Sorting {
 
         while (t < arr.length) {
             int s = t;
-            t = 2*s;
+            t = 2 * s;
             int i = 0;
 
             while (i + t <= arr.length) {
@@ -210,7 +177,7 @@ public class Sorting {
         }
     }
 
-    private static void quicksort(int[] arr, int low, int high) {
+    private static void quickSort(int[] arr, int low, int high) {
         int i = low, j = high;
 
         // Get the pivot element from the middle of the list
@@ -242,104 +209,38 @@ public class Sorting {
         }
 
         // Recursion
-        if ( stopRecursionIfSorted ) {
-          if (low < j)
-            if ( ! isSorted( arr, low, j ) ) {
-              if ( useInsertSortForShorties && ( j - low < 100 ) ) {
-                insertSort(arr, low, j);
-              } else {
-                quicksort(arr, low, j);
-              }
-            }
-          if (i < high)
-            if ( ! isSorted( arr, i, high ) ) {
-              if ( useInsertSortForShorties && ( high - i < 100 ) ) {
-                insertSort(arr, i, high);
-              } else {
-                quicksort(arr, i, high);
-              }
-            }
+        if (stopRecursionIfSorted) {
+            if (low < j)
+                if (!isSorted(arr, low, j)) {
+                    if (useInsertSortForShorties && (j - low < 100)) {
+                        insertSort(arr, low, j);
+                    } else {
+                        quickSort(arr, low, j);
+                    }
+                }
+            if (i < high)
+                if (!isSorted(arr, i, high)) {
+                    if (useInsertSortForShorties && (high - i < 100)) {
+                        insertSort(arr, i, high);
+                    } else {
+                        quickSort(arr, i, high);
+                    }
+                }
+        } else {
+            // Recursion
+            if (low < j)
+                if (useInsertSortForShorties && (j - low < 100)) {
+                    insertSort(arr, low, j);
+                } else {
+                    quickSort(arr, low, j);
+                }
+            if (i < high)
+                if (useInsertSortForShorties && (high - i < 100)) {
+                    insertSort(arr, i, high);
+                } else {
+                    quickSort(arr, i, high);
+                }
         }
-        else
-        {
-          // Recursion
-          if (low < j)
-              if ( useInsertSortForShorties && ( j - low < 100 ) ) {
-                insertSort(arr, low, j);
-              } else {
-                quicksort(arr, low, j);
-              }
-          if (i < high)
-              if ( useInsertSortForShorties && ( high - i < 100 ) ) {
-                insertSort(arr, i, high);
-              } else {
-                quicksort(arr, i, high);
-              }
-        }
-    }
-
-    public static void garbage() {
-        // randomGenerator = new Random();
-
-        // // built-in sort
-        // long start = System.currentTimeMillis();
-        // if (size < 101) printArray("Initial array:");
-        // Arrays.sort(arr);
-        // if (size < 101) printArray("out");
-        // long finish = System.currentTimeMillis();
-        // System.out.println("Arrays.sort: " + (finish - start) + " milliseconds.");
-
-        // // Heap sort
-        // for (int i = 0; i < size; i++) arr[i] = arrCopy[i];
-        // start = finish;
-        // if (size < 101) printArray("in");
-        // heapsort();
-        // if (size < 101) printArray("out");
-        // finish = System.currentTimeMillis();
-        // System.out.println("heapsort: " + (finish - start) + " milliseconds.");
-
-        // // Merge sort
-        // for (int i = 0; i < size; i++) arr[i] = arrCopy[i];
-        // start = finish;
-        // if (size < 101) printArray("in");
-        // mergesort(0, size - 1);
-        // if (size < 101) printArray("out");
-        // finish = System.currentTimeMillis();
-        // System.out.println("mergesort: " + (finish - start) + " milliseconds.");
-
-        // // Quick sort
-        // for (int i = 0; i < size; i++) arr[i] = arrCopy[i];
-        // start = finish;
-        // if (size < 101) printArray("in");
-        // quicksort(0, size - 1);
-        // if (size < 101) printArray("out");
-        // finish = System.currentTimeMillis();
-        // System.out.println("quicksort: " + (finish - start) + " milliseconds.");
-
-        // // arr[0..size-1] is already sorted. We randomly swap 100 pairs to make it nearly-sorted.
-        // for (int i = 0; i < 100; i++) {
-        //     int j = randomGenerator.nextInt(size);
-        //     int k = randomGenerator.nextInt(size);
-        //     exchange(j, k);
-        // }
-        // for (int i = 0; i < size; i++) arrCopy2[i] = arr[i];
-
-        // // Quick sort on nearly-sorted array
-        // start = finish;
-        // if (size < 101) printArray("in");
-        // quicksort(0, size - 1);
-        // if (size < 101) printArray("out");
-        // finish = System.currentTimeMillis();
-        // System.out.println("quicksort on nearly-sorted: " + (finish - start) + " milliseconds.");
-
-        // // Insert sort on nearly-sorted array
-        // for (int i = 0; i < size; i++) arr[i] = arrCopy2[i];
-        // start = finish;
-        // if (size < 101) printArray("in");
-        // insertionSort();
-        // if (size < 101) printArray("out");
-        // finish = System.currentTimeMillis();
-        // System.out.println("insertsort on nearly-sorted: " + (finish - start) + " milliseconds.");
     }
 
     public static void main(String[] args) {
@@ -388,13 +289,13 @@ public class Sorting {
                     System.arraycopy(arr, 0, tempArr, 0, arr.length);
 
                     start = System.currentTimeMillis();
-                    mergesort(arrayToSort, 0, arrayToSort.length - 1);
-                    mergesort(arrayToSort, 0, arrayToSort.length - 1);
+                    mergeSort(arrayToSort, 0, arrayToSort.length - 1);
+                    mergeSort(arrayToSort, 0, arrayToSort.length - 1);
                     totalStanMergeTime += System.currentTimeMillis() - start;
                     numStanMergeSorts++;
                 }
-                System.out.println("Average standard merge sort time = " + totalStanMergeTime/numStanMergeSorts + " ms");
-                System.out.println("Average number of comparisons = " + numComparisons/numStanMergeSorts);
+                System.out.println("Average standard merge sort time = " + totalStanMergeTime / numStanMergeSorts + " ms");
+                System.out.println("Average number of comparisons = " + numComparisons / numStanMergeSorts);
 
                 // Sort arrays with bottom-up merge sort
                 for (int[] arr : arrays) {
@@ -407,14 +308,72 @@ public class Sorting {
                     totalBUMergeTime += System.currentTimeMillis() - start;
                     numBUMergeSorts++;
                 }
-                System.out.println("Average bottom-up merge sort time = " + totalBUMergeTime/numBUMergeSorts + " ms");
-                System.out.println("Average number of comparisons = " + numComparisons/numBUMergeSorts);
+                System.out.println("Average bottom-up merge sort time = " + totalBUMergeTime / numBUMergeSorts + " ms");
+                System.out.println("Average number of comparisons = " + numComparisons / numBUMergeSorts);
                 System.out.println();
             }
         }
     }
 
     private static void problem2() {
-        
+        int numArrays = 100;
+        int[] numIntsOpts = {1000000, 2000000, 4000000};
+        int[] intRangeOpts = {1000, 1000000};
+
+        for (int intRange : intRangeOpts) {
+            for (int numInts : numIntsOpts) {
+                // Generate arrays to sort
+                System.out.println(String.format("Generating %d sets of %d ints between 0 and %d", numArrays, numInts, intRange));
+                int[][] arrays = new int[numArrays][numInts];
+
+                for (int[] arr : arrays) {
+                    System.arraycopy(getRandomArray(intRange, numInts), 0, arr, 0, numInts);
+                }
+
+                int[] arrayToSort = new int[numInts]; // array to pass as parameter to merging algorithms
+                tempArr = new int[numInts]; // array to store temp arrays used in merge()
+                long start, totalTime;
+
+                // Run algorithms for base case
+                System.out.println("Running algorithms for base case");
+                
+
+                // Run algorithms for isSorted but not insertSort
+                System.out.println("Running algorithms for isSorted check");
+                stopRecursionIfSorted = true;
+
+                // Sort arrays with standard merge sort
+                totalTime = 0;
+                for (int[] arr : arrays) {
+                    System.arraycopy(arr, 0, arrayToSort, 0, arr.length);
+                    System.arraycopy(arr, 0, tempArr, 0, arr.length);
+
+                    start = System.currentTimeMillis();
+                    mergeSort(arrayToSort, 0, arrayToSort.length - 1);
+                    mergeSort(arrayToSort, 0, arrayToSort.length - 1);
+                    totalTime += System.currentTimeMillis() - start;
+                }
+                System.out.println("Average standard merge sort time = " + totalTime / arrays.length + " ms");
+
+                // Run algorithms for insertSort but not isSorted
+                stopRecursionIfSorted = false;
+                useInsertSortForShorties = true;
+
+                // Run algorithms for both isSorted and insertSort
+                stopRecursionIfSorted = true;
+            }
+        }
+
+        // Run algorithms for base case
+
+        // Run algorithms for isSorted but not insertSort
+        stopRecursionIfSorted = true;
+
+        // Run algorithms for insertSort but not isSorted
+        stopRecursionIfSorted = false;
+        useInsertSortForShorties = true;
+
+        // Run algorithms for both isSorted and insertSort
+        stopRecursionIfSorted = true;
     }
 }
