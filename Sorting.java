@@ -275,23 +275,33 @@ public class Sorting {
         int[] arr = new int[size];
 
         for (int i = 0; i < size; i++) {
-            arr[i] = randomGenerator.nextInt(max);
+            arr[i] = randomGenerator.nextInt(max) + 1;
         }
 
         return arr;
     }
 
-    private static int[] getNearlySortedArray(int size, int numInversions) {
-        int[] arr = new int[size];
-
-        for (int i = 1; i <= size; i++) {
-            arr[i-1] = i;
-        }
+    private static int[] getNearlySortedArray(int size, int max, int numInversions) {
+        int[] arr = getRandomArray(size, max);
+        Arrays.sort(arr);
 
         for (int i = 0; i < numInversions; i++) {
             int j  = randomGenerator.nextInt(size);
             int k  = randomGenerator.nextInt(size);
             exchange(arr, j, k);
+        }
+
+        return arr;
+    }
+
+    private static int[] getReversedArray(int size, int max) {
+        int[] arr = getRandomArray(size, max);
+        Arrays.sort(arr);
+
+        for (int i = 0; i < size / 2; i++) {
+            int temp = arr[i];
+            arr[i] = arr[size - 1 - i];
+            arr[size - 1 - i] = temp;
         }
 
         return arr;
@@ -344,6 +354,8 @@ public class Sorting {
             start = System.currentTimeMillis();
             quickSort(arrayToSort, 0, size - 1);
             totalTime += (System.currentTimeMillis() - start);
+            //printArray(arrayToSort, "");
+            System.out.println(isSorted(arrayToSort, 0, size - 1));
         }
 
         System.out.println(String.format("Average quick sort time = %d ms", (totalTime / arrays.length)));
@@ -399,23 +411,25 @@ public class Sorting {
 
     public static void main(String[] args) {
         randomGenerator = new Random();
-        //problem1();
-        //problem2();
-        //problem3();
-        problem4();
+        int numArrays = 10;
+
+        //problem1(numArrays);
+        //problem2(numArrays);
+        //problem3(numArrays);
+        problem4(numArrays);
+        problem5(numArrays);
     }
 
-    private static void problem1() {
+    private static void problem1(int numArrays) {
         System.out.println("\nRunning problem 1...\n");
 
-        int numArrays = 100;
         int[] numIntsOpts = {1000000, 2000000, 4000000};
         int[] intRangeOpts = {1000, 1000000};
 
         for (int intRange : intRangeOpts) {
             for (int numInts : numIntsOpts) {
                 // Generate arrays to sort
-                System.out.println(String.format("Generating %d sets of %d ints between 0 and %d", numArrays, numInts, intRange));
+                System.out.println(String.format("Generating %d sets of %d ints from 1 - %d", numArrays, numInts, intRange));
                 int[][] arrays = new int[numArrays][numInts];
 
                 for (int[] arr : arrays) {
@@ -436,17 +450,16 @@ public class Sorting {
         }
     }
 
-    private static void problem2() {
+    private static void problem2(int numArrays) {
         System.out.println("\nRunning problem 2...\n");
 
-        int numArrays = 100;
         int[] numIntsOpts = {1000000, 2000000, 4000000};
         int[] intRangeOpts = {1000, 1000000};
 
         for (int intRange : intRangeOpts) {
             for (int numInts : numIntsOpts) {
                 // Generate arrays to sort
-                System.out.println(String.format("Generating %d sets of %d ints between 0 and %d", numArrays, numInts, intRange));
+                System.out.println(String.format("Generating %d sets of %d ints from 1 - %d", numArrays, numInts, intRange));
                 int[][] arrays = new int[numArrays][numInts];
 
                 for (int[] arr : arrays) {
@@ -486,17 +499,16 @@ public class Sorting {
         }
     }
 
-    public static void problem3() {
+    public static void problem3(int numArrays) {
         System.out.println("\nRunning problem 3...\n");
 
-        int numArrays = 100;
         int[] numIntsOpts = {1000000, 2000000, 4000000};
         int[] intRangeOpts = {1000, 1000000};
 
         for (int intRange : intRangeOpts) {
             for (int numInts : numIntsOpts) {
                 // Generate arrays to sort
-                System.out.println(String.format("Generating %d sets of %d ints between 0 and %d", numArrays, numInts, intRange));
+                System.out.println(String.format("Generating %d sets of %d ints from 1 - %d", numArrays, numInts, intRange));
                 int[][] arrays = new int[numArrays][numInts];
 
                 for (int[] arr : arrays) {
@@ -528,28 +540,50 @@ public class Sorting {
         }
     }
 
-    public static void problem4() {
+    public static void problem4(int numArrays) {
         System.out.println("\nRunning problem 4...\n");
 
-        int numArrays = 100;
         int numInversions = 100;
         int numInts = 2000000;
         int[] intRangeOpts = {10000, 100000, 1000000};
 
         for (int intRange : intRangeOpts) {
-            System.out.println(String.format("Generating %d sets of nearly-sorted arrays with %d ints between 1 and %d", numArrays, numInts, intRange));
+            System.out.println(String.format("Generating %d sets of nearly-sorted arrays with %d ints from 1 - %d", numArrays, numInts, intRange));
             int[][] arrays = new int[numArrays][numInts];
 
             for (int[] arr : arrays) {
-                System.arraycopy(getNearlySortedArray(numInts, numInversions), 0, arr, 0, numInts);
+                System.arraycopy(getNearlySortedArray(numInts, intRange, numInversions), 0, arr, 0, numInts);
             }
-
-            runInsertionSorts(arrays, numInts);
 
             medianQuickSort = false;
             stopRecursionIfSorted = true;
             useInsertSortForShorties = false;
             runQuickSorts(arrays, numInts);
+
+            runInsertionSorts(arrays, numInts);
+        }
+    }
+
+    public static void problem5(int numArrays) {
+        System.out.println("\nRunning problem 5...\n");
+
+        int numInts = 2000000;
+        int[] intRangeOpts = {10000, 100000, 1000000};
+
+        for (int intRange : intRangeOpts) {
+            System.out.println(String.format("Generating %d sets of reversed sorted arrays with %d ints from 1 - %d", numArrays, numInts, intRange));
+            int[][] arrays = new int[numArrays][numInts];
+
+            for (int[] arr : arrays) {
+                System.arraycopy(getReversedArray(numInts, intRange), 0, arr, 0, numInts);
+            }
+
+            medianQuickSort = false;
+            stopRecursionIfSorted = false;
+            useInsertSortForShorties = false;
+            runQuickSorts(arrays, numInts);
+
+            runHeapSorts(arrays, numInts);
         }
     }
 }
