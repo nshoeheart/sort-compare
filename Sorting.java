@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Random;
 
 public class Sorting {
@@ -8,6 +9,8 @@ public class Sorting {
 
     private static boolean stopRecursionIfSorted = false;
     private static boolean useInsertSortForShorties = false;
+
+    private static boolean medianQuickSort = false;
 
     private static boolean isSorted(int[] arr, int lo, int hi) {
         for (int i = lo; i < (hi - 1); i++) {
@@ -179,9 +182,34 @@ public class Sorting {
 
     private static void quickSort(int[] arr, int low, int high) {
         int i = low, j = high;
+        int pivot;
 
-        // Get the pivot element from the middle of the list
-        int pivot = arr[(high + low) / 2];
+        // Get the pivot element
+        if (medianQuickSort) {
+            int lo = arr[low];
+            int md = arr[(high + low) / 2];
+            int hi = arr[high];
+
+            if (lo > md) {
+                if (md > hi) {
+                    pivot = md;
+                } else if (lo > hi) {
+                    pivot = hi;
+                } else {
+                    pivot = lo;
+                }
+            } else {
+                if (lo > hi) {
+                    pivot = lo;
+                } else if (md > hi) {
+                    pivot = hi;
+                } else {
+                    pivot = md;
+                }
+            }
+        } else {
+            pivot = arr[(high + low) / 2];
+        }
 
         // Divide into two lists
         while (i <= j) {
@@ -241,12 +269,6 @@ public class Sorting {
                     quickSort(arr, i, high);
                 }
         }
-    }
-
-    public static void main(String[] args) {
-        randomGenerator = new Random();
-        problem1();
-        problem2();
     }
 
     private static int[] getRandomArray(int max, int size) {
@@ -311,10 +333,49 @@ public class Sorting {
         System.out.println(String.format("Average quick sort time = %d ms", (totalTime / arrays.length)));
     }
 
-    private static void problem1() {
-        System.out.println("Running problem 1...");
+    private static void runBuiltInSorts(int[][] arrays, int size) {
+        int[] arrayToSort = new int[size];
+        long start;
+        long totalTime = 0;
 
-        int numArrays = 10;
+        for (int[] arr : arrays) {
+            System.arraycopy(arr, 0, arrayToSort, 0, size);
+
+            start = System.currentTimeMillis();
+            Arrays.sort(arrayToSort);
+            totalTime += (System.currentTimeMillis() - start);
+        }
+
+        System.out.println(String.format("Average built-in sort time = %d ms", (totalTime / arrays.length)));
+    }
+
+    private static void runHeapsorts(int[][] arrays, int size) {
+        int[] arrayToSort = new int[size];
+        long start;
+        long totalTime = 0;
+
+        for (int[] arr : arrays) {
+            System.arraycopy(arr, 0, arrayToSort, 0, size);
+
+            start = System.currentTimeMillis();
+            heapSort(arrayToSort);
+            totalTime += (System.currentTimeMillis() - start);
+        }
+
+        System.out.println(String.format("Average heap sort time = %d ms", (totalTime / arrays.length)));
+    }
+
+    public static void main(String[] args) {
+        randomGenerator = new Random();
+        //problem1();
+        //problem2();
+        problem3();
+    }
+
+    private static void problem1() {
+        System.out.println("\nRunning problem 1...\n");
+
+        int numArrays = 100;
         int[] numIntsOpts = {1000000, 2000000, 4000000};
         int[] intRangeOpts = {1000, 1000000};
 
@@ -343,9 +404,9 @@ public class Sorting {
     }
 
     private static void problem2() {
-        System.out.println("Running problem 2...");
+        System.out.println("\nRunning problem 2...\n");
 
-        int numArrays = 10;
+        int numArrays = 100;
         int[] numIntsOpts = {1000000, 2000000, 4000000};
         int[] intRangeOpts = {1000, 1000000};
 
@@ -361,12 +422,15 @@ public class Sorting {
 
                 // Run algorithms for base case
                 System.out.println("Running algorithms for base case");
+                stopRecursionIfSorted = false;
+                useInsertSortForShorties = false;
                 runStdMergeSorts(arrays, numInts);
                 runQuickSorts(arrays, numInts);
 
                 // Run algorithms for isSorted but not insertSort
                 System.out.println("\nRunning algorithms for isSorted check on sub-arrays");
                 stopRecursionIfSorted = true;
+                useInsertSortForShorties = false;
                 runStdMergeSorts(arrays, numInts);
                 runQuickSorts(arrays, numInts);
 
@@ -380,7 +444,50 @@ public class Sorting {
                 // Run algorithms for both isSorted and insertSort
                 System.out.println("\nRunning algorithms for both isSorted check and insertSort on sub-arrays");
                 stopRecursionIfSorted = true;
+                useInsertSortForShorties = true;
                 runStdMergeSorts(arrays, numInts);
+                runQuickSorts(arrays, numInts);
+
+                System.out.println();
+            }
+        }
+    }
+
+    public static void problem3() {
+        System.out.println("\nRunning problem 3...\n");
+
+        int numArrays = 100;
+        int[] numIntsOpts = {1000000, 2000000, 4000000};
+        int[] intRangeOpts = {1000, 1000000};
+
+        for (int intRange : intRangeOpts) {
+            for (int numInts : numIntsOpts) {
+                // Generate arrays to sort
+                System.out.println(String.format("Generating %d sets of %d ints between 0 and %d", numArrays, numInts, intRange));
+                int[][] arrays = new int[numArrays][numInts];
+
+                for (int[] arr : arrays) {
+                    System.arraycopy(getRandomArray(intRange, numInts), 0, arr, 0, numInts);
+                }
+
+                System.out.print("Using median pivot best-case quick sort: ");
+                medianQuickSort = true;
+                stopRecursionIfSorted = true;
+                useInsertSortForShorties = false;
+                runQuickSorts(arrays, numInts);
+
+                runBuiltInSorts(arrays, numInts);
+
+                runHeapsorts(arrays, numInts);
+
+                stopRecursionIfSorted = false;
+                useInsertSortForShorties = true;
+                runStdMergeSorts(arrays, numInts);
+
+                System.out.print("Using middle pivot best-case quick sort: ");
+                medianQuickSort = false;
+                stopRecursionIfSorted = true;
+                useInsertSortForShorties = false;
                 runQuickSorts(arrays, numInts);
 
                 System.out.println();
