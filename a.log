@@ -1,0 +1,2673 @@
+
+Running problem 1...
+
+Generating 10 sets of 1000000 ints from 1 - 1000
+before StdMergeSort isSorted = false [718, 456, 66, 863, 544]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [424, 474, 595, 193, 522]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [183, 650, 534, 387, 114]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [964, 81, 604, 276, 922]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [470, 628, 373, 753, 279]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [330, 933, 342, 567, 580]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [796, 73, 158, 796, 547]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [695, 166, 112, 754, 508]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [440, 118, 868, 490, 543]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [42, 589, 742, 498, 558]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+Average standard merge sort time = 96 ms
+Average number of comparisons = 186
+before BUMergeSort isSorted = false [718, 456, 66, 863, 544]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [424, 474, 595, 193, 522]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [183, 650, 534, 387, 114]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [964, 81, 604, 276, 922]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [470, 628, 373, 753, 279]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [330, 933, 342, 567, 580]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [796, 73, 158, 796, 547]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [695, 166, 112, 754, 508]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [440, 118, 868, 490, 543]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [42, 589, 742, 498, 558]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+Average bottom-up merge sort time = 104 ms
+Average number of comparisons = 187
+
+Generating 10 sets of 2000000 ints from 1 - 1000
+before StdMergeSort isSorted = false [350, 308, 656, 43, 329]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [288, 984, 495, 828, 945]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [819, 701, 165, 879, 48]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [924, 343, 366, 362, 982]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [348, 613, 81, 534, 953]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [920, 927, 474, 804, 368]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [335, 239, 663, 413, 142]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [186, 218, 837, 756, 848]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [507, 18, 431, 670, 431]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [942, 811, 269, 433, 608]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+Average standard merge sort time = 198 ms
+Average number of comparisons = 196
+before BUMergeSort isSorted = false [350, 308, 656, 43, 329]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [288, 984, 495, 828, 945]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [819, 701, 165, 879, 48]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [924, 343, 366, 362, 982]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [348, 613, 81, 534, 953]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [920, 927, 474, 804, 368]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [335, 239, 663, 413, 142]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [186, 218, 837, 756, 848]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [507, 18, 431, 670, 431]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [942, 811, 269, 433, 608]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+Average bottom-up merge sort time = 210 ms
+Average number of comparisons = 197
+
+Generating 10 sets of 4000000 ints from 1 - 1000
+before StdMergeSort isSorted = false [667, 102, 51, 851, 88]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [258, 770, 968, 306, 933]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [274, 132, 442, 615, 845]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [757, 438, 999, 470, 480]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [227, 230, 947, 512, 485]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [249, 65, 325, 955, 21]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [145, 316, 172, 973, 164]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [859, 444, 726, 879, 278]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [999, 927, 931, 459, 34]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [125, 292, 817, 73, 272]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+Average standard merge sort time = 387 ms
+Average number of comparisons = 206
+before BUMergeSort isSorted = false [667, 102, 51, 851, 88]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [258, 770, 968, 306, 933]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [274, 132, 442, 615, 845]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [757, 438, 999, 470, 480]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [227, 230, 947, 512, 485]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [249, 65, 325, 955, 21]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [145, 316, 172, 973, 164]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [859, 444, 726, 879, 278]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [999, 927, 931, 459, 34]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [125, 292, 817, 73, 272]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+Average bottom-up merge sort time = 416 ms
+Average number of comparisons = 207
+
+Generating 10 sets of 1000000 ints from 1 - 1000000
+before StdMergeSort isSorted = false [584648, 90535, 305739, 615067, 436343]
+after StdMergeSort isSorted = true [1, 3, 4, 6, 7]
+before StdMergeSort isSorted = false [896761, 557159, 281726, 452479, 878777]
+after StdMergeSort isSorted = true [2, 2, 3, 4, 6]
+before StdMergeSort isSorted = false [227721, 335383, 934140, 899773, 952112]
+after StdMergeSort isSorted = true [6, 6, 6, 8, 8]
+before StdMergeSort isSorted = false [205130, 326294, 829308, 16029, 299931]
+after StdMergeSort isSorted = true [1, 2, 3, 4, 5]
+before StdMergeSort isSorted = false [972036, 652321, 744018, 40084, 472199]
+after StdMergeSort isSorted = true [1, 2, 2, 2, 3]
+before StdMergeSort isSorted = false [66526, 259627, 857461, 977106, 761440]
+after StdMergeSort isSorted = true [1, 5, 7, 7, 7]
+before StdMergeSort isSorted = false [375019, 852500, 371595, 271539, 850951]
+after StdMergeSort isSorted = true [1, 1, 4, 6, 8]
+before StdMergeSort isSorted = false [253602, 16939, 190144, 550876, 335328]
+after StdMergeSort isSorted = true [3, 3, 3, 4, 8]
+before StdMergeSort isSorted = false [746117, 518938, 197846, 540089, 876861]
+after StdMergeSort isSorted = true [4, 6, 8, 10, 14]
+before StdMergeSort isSorted = false [329980, 228916, 186959, 599365, 988149]
+after StdMergeSort isSorted = true [1, 1, 2, 3, 3]
+Average standard merge sort time = 117 ms
+Average number of comparisons = 186
+before BUMergeSort isSorted = false [584648, 90535, 305739, 615067, 436343]
+after BUMergeSort isSorted = true [1, 3, 4, 6, 7]
+before BUMergeSort isSorted = false [896761, 557159, 281726, 452479, 878777]
+after BUMergeSort isSorted = true [2, 2, 3, 4, 6]
+before BUMergeSort isSorted = false [227721, 335383, 934140, 899773, 952112]
+after BUMergeSort isSorted = true [6, 6, 6, 8, 8]
+before BUMergeSort isSorted = false [205130, 326294, 829308, 16029, 299931]
+after BUMergeSort isSorted = true [1, 2, 3, 4, 5]
+before BUMergeSort isSorted = false [972036, 652321, 744018, 40084, 472199]
+after BUMergeSort isSorted = true [1, 2, 2, 2, 3]
+before BUMergeSort isSorted = false [66526, 259627, 857461, 977106, 761440]
+after BUMergeSort isSorted = true [1, 5, 7, 7, 7]
+before BUMergeSort isSorted = false [375019, 852500, 371595, 271539, 850951]
+after BUMergeSort isSorted = true [1, 1, 4, 6, 8]
+before BUMergeSort isSorted = false [253602, 16939, 190144, 550876, 335328]
+after BUMergeSort isSorted = true [3, 3, 3, 4, 8]
+before BUMergeSort isSorted = false [746117, 518938, 197846, 540089, 876861]
+after BUMergeSort isSorted = true [4, 6, 8, 10, 14]
+before BUMergeSort isSorted = false [329980, 228916, 186959, 599365, 988149]
+after BUMergeSort isSorted = true [1, 1, 2, 3, 3]
+Average bottom-up merge sort time = 124 ms
+Average number of comparisons = 187
+
+Generating 10 sets of 2000000 ints from 1 - 1000000
+before StdMergeSort isSorted = false [616227, 961017, 200451, 251331, 185949]
+after StdMergeSort isSorted = true [2, 2, 2, 3, 3]
+before StdMergeSort isSorted = false [815850, 817703, 394065, 139631, 745676]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [6440, 383301, 815632, 740914, 57901]
+after StdMergeSort isSorted = true [1, 1, 4, 5, 5]
+before StdMergeSort isSorted = false [261737, 949052, 795386, 84856, 538183]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [823384, 69839, 638565, 79881, 632294]
+after StdMergeSort isSorted = true [1, 2, 3, 4, 5]
+before StdMergeSort isSorted = false [38367, 950740, 662461, 342669, 216103]
+after StdMergeSort isSorted = true [1, 1, 2, 2, 2]
+before StdMergeSort isSorted = false [338160, 322575, 12519, 509232, 301554]
+after StdMergeSort isSorted = true [2, 3, 3, 4, 4]
+before StdMergeSort isSorted = false [406715, 51440, 118959, 694958, 490847]
+after StdMergeSort isSorted = true [2, 2, 2, 3, 4]
+before StdMergeSort isSorted = false [177223, 572056, 358790, 313434, 808781]
+after StdMergeSort isSorted = true [1, 2, 2, 3, 3]
+before StdMergeSort isSorted = false [266943, 947965, 995332, 770643, 777378]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 2]
+Average standard merge sort time = 252 ms
+Average number of comparisons = 196
+before BUMergeSort isSorted = false [616227, 961017, 200451, 251331, 185949]
+after BUMergeSort isSorted = true [2, 2, 2, 3, 3]
+before BUMergeSort isSorted = false [815850, 817703, 394065, 139631, 745676]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [6440, 383301, 815632, 740914, 57901]
+after BUMergeSort isSorted = true [1, 1, 4, 5, 5]
+before BUMergeSort isSorted = false [261737, 949052, 795386, 84856, 538183]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [823384, 69839, 638565, 79881, 632294]
+after BUMergeSort isSorted = true [1, 2, 3, 4, 5]
+before BUMergeSort isSorted = false [38367, 950740, 662461, 342669, 216103]
+after BUMergeSort isSorted = true [1, 1, 2, 2, 2]
+before BUMergeSort isSorted = false [338160, 322575, 12519, 509232, 301554]
+after BUMergeSort isSorted = true [2, 3, 3, 4, 4]
+before BUMergeSort isSorted = false [406715, 51440, 118959, 694958, 490847]
+after BUMergeSort isSorted = true [2, 2, 2, 3, 4]
+before BUMergeSort isSorted = false [177223, 572056, 358790, 313434, 808781]
+after BUMergeSort isSorted = true [1, 2, 2, 3, 3]
+before BUMergeSort isSorted = false [266943, 947965, 995332, 770643, 777378]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 2]
+Average bottom-up merge sort time = 265 ms
+Average number of comparisons = 197
+
+Generating 10 sets of 4000000 ints from 1 - 1000000
+before StdMergeSort isSorted = false [949951, 168672, 186635, 671089, 418560]
+after StdMergeSort isSorted = true [1, 2, 2, 2, 3]
+before StdMergeSort isSorted = false [160161, 822073, 213303, 59603, 154270]
+after StdMergeSort isSorted = true [1, 1, 2, 2, 2]
+before StdMergeSort isSorted = false [719181, 282951, 871019, 286330, 733295]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 2]
+before StdMergeSort isSorted = false [417727, 575385, 991236, 908243, 725073]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [967985, 844041, 419669, 892260, 725859]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [109350, 128512, 227384, 451031, 407299]
+after StdMergeSort isSorted = true [3, 3, 3, 3, 3]
+before StdMergeSort isSorted = false [903806, 265336, 919157, 330617, 549921]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [421440, 606021, 237735, 4659, 177495]
+after StdMergeSort isSorted = true [2, 2, 2, 2, 3]
+before StdMergeSort isSorted = false [49783, 32639, 808251, 997408, 794338]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [720619, 861520, 644327, 282765, 27423]
+after StdMergeSort isSorted = true [1, 1, 1, 2, 2]
+Average standard merge sort time = 538 ms
+Average number of comparisons = 206
+before BUMergeSort isSorted = false [949951, 168672, 186635, 671089, 418560]
+after BUMergeSort isSorted = true [1, 2, 2, 2, 3]
+before BUMergeSort isSorted = false [160161, 822073, 213303, 59603, 154270]
+after BUMergeSort isSorted = true [1, 1, 2, 2, 2]
+before BUMergeSort isSorted = false [719181, 282951, 871019, 286330, 733295]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 2]
+before BUMergeSort isSorted = false [417727, 575385, 991236, 908243, 725073]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [967985, 844041, 419669, 892260, 725859]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [109350, 128512, 227384, 451031, 407299]
+after BUMergeSort isSorted = true [3, 3, 3, 3, 3]
+before BUMergeSort isSorted = false [903806, 265336, 919157, 330617, 549921]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [421440, 606021, 237735, 4659, 177495]
+after BUMergeSort isSorted = true [2, 2, 2, 2, 3]
+before BUMergeSort isSorted = false [49783, 32639, 808251, 997408, 794338]
+after BUMergeSort isSorted = true [1, 1, 1, 1, 1]
+before BUMergeSort isSorted = false [720619, 861520, 644327, 282765, 27423]
+after BUMergeSort isSorted = true [1, 1, 1, 2, 2]
+Average bottom-up merge sort time = 565 ms
+Average number of comparisons = 207
+
+
+Running problem 2...
+
+Generating 10 sets of 1000000 ints from 1 - 1000
+Running algorithms for base case
+before StdMergeSort isSorted = false [940, 556, 283, 517, 140]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [386, 598, 488, 770, 243]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [688, 480, 69, 483, 820]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [597, 576, 260, 496, 38]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [634, 400, 499, 41, 562]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [86, 310, 58, 366, 199]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [50, 716, 818, 215, 350]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [958, 609, 363, 333, 183]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [89, 885, 397, 470, 609]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [169, 551, 660, 877, 396]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+Average standard merge sort time = 93 ms
+before quickSort isSorted = false [940, 556, 283, 517, 140]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [386, 598, 488, 770, 243]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [688, 480, 69, 483, 820]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [597, 576, 260, 496, 38]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [634, 400, 499, 41, 562]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [86, 310, 58, 366, 199]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [50, 716, 818, 215, 350]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [958, 609, 363, 333, 183]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [89, 885, 397, 470, 609]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [169, 551, 660, 877, 396]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+Average quick sort time = 56 ms
+
+Running algorithms for isSorted check on sub-arrays
+before StdMergeSort isSorted = false [940, 556, 283, 517, 140]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [386, 598, 488, 770, 243]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [688, 480, 69, 483, 820]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [597, 576, 260, 496, 38]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [634, 400, 499, 41, 562]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [86, 310, 58, 366, 199]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [50, 716, 818, 215, 350]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [958, 609, 363, 333, 183]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [89, 885, 397, 470, 609]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [169, 551, 660, 877, 396]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+Average standard merge sort time = 81 ms
+before quickSort isSorted = false [940, 556, 283, 517, 140]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [386, 598, 488, 770, 243]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [688, 480, 69, 483, 820]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [597, 576, 260, 496, 38]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [634, 400, 499, 41, 562]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [86, 310, 58, 366, 199]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [50, 716, 818, 215, 350]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [958, 609, 363, 333, 183]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [89, 885, 397, 470, 609]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [169, 551, 660, 877, 396]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+Average quick sort time = 42 ms
+
+Running algorithms for insertSort for sub-arrays < 100 in length
+before StdMergeSort isSorted = false [940, 556, 283, 517, 140]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [386, 598, 488, 770, 243]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [688, 480, 69, 483, 820]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [597, 576, 260, 496, 38]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [634, 400, 499, 41, 562]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [86, 310, 58, 366, 199]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [50, 716, 818, 215, 350]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [958, 609, 363, 333, 183]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [89, 885, 397, 470, 609]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [169, 551, 660, 877, 396]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+Average standard merge sort time = 68 ms
+before quickSort isSorted = false [940, 556, 283, 517, 140]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [386, 598, 488, 770, 243]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [688, 480, 69, 483, 820]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [597, 576, 260, 496, 38]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [634, 400, 499, 41, 562]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [86, 310, 58, 366, 199]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [50, 716, 818, 215, 350]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [958, 609, 363, 333, 183]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [89, 885, 397, 470, 609]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [169, 551, 660, 877, 396]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+Average quick sort time = 63 ms
+
+Running algorithms for both isSorted check and insertSort on sub-arrays
+before StdMergeSort isSorted = false [940, 556, 283, 517, 140]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [386, 598, 488, 770, 243]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [688, 480, 69, 483, 820]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [597, 576, 260, 496, 38]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [634, 400, 499, 41, 562]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [86, 310, 58, 366, 199]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [50, 716, 818, 215, 350]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [958, 609, 363, 333, 183]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [89, 885, 397, 470, 609]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [169, 551, 660, 877, 396]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+Average standard merge sort time = 68 ms
+before quickSort isSorted = false [940, 556, 283, 517, 140]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [386, 598, 488, 770, 243]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [688, 480, 69, 483, 820]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [597, 576, 260, 496, 38]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [634, 400, 499, 41, 562]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [86, 310, 58, 366, 199]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [50, 716, 818, 215, 350]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [958, 609, 363, 333, 183]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [89, 885, 397, 470, 609]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [169, 551, 660, 877, 396]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+Average quick sort time = 43 ms
+
+Generating 10 sets of 2000000 ints from 1 - 1000
+Running algorithms for base case
+before StdMergeSort isSorted = false [977, 750, 722, 543, 995]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [978, 864, 505, 220, 369]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [511, 429, 721, 411, 213]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [649, 199, 215, 742, 456]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [120, 93, 480, 875, 171]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [536, 121, 442, 592, 677]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [152, 943, 414, 92, 155]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [597, 534, 364, 827, 137]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [134, 392, 155, 295, 363]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [932, 402, 563, 267, 707]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+Average standard merge sort time = 182 ms
+before quickSort isSorted = false [977, 750, 722, 543, 995]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [978, 864, 505, 220, 369]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [511, 429, 721, 411, 213]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [649, 199, 215, 742, 456]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [120, 93, 480, 875, 171]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [536, 121, 442, 592, 677]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [152, 943, 414, 92, 155]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [597, 534, 364, 827, 137]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [134, 392, 155, 295, 363]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [932, 402, 563, 267, 707]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+Average quick sort time = 104 ms
+
+Running algorithms for isSorted check on sub-arrays
+before StdMergeSort isSorted = false [977, 750, 722, 543, 995]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [978, 864, 505, 220, 369]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [511, 429, 721, 411, 213]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [649, 199, 215, 742, 456]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [120, 93, 480, 875, 171]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [536, 121, 442, 592, 677]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [152, 943, 414, 92, 155]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [597, 534, 364, 827, 137]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [134, 392, 155, 295, 363]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [932, 402, 563, 267, 707]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+Average standard merge sort time = 163 ms
+before quickSort isSorted = false [977, 750, 722, 543, 995]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [978, 864, 505, 220, 369]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [511, 429, 721, 411, 213]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [649, 199, 215, 742, 456]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [120, 93, 480, 875, 171]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [536, 121, 442, 592, 677]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [152, 943, 414, 92, 155]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [597, 534, 364, 827, 137]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [134, 392, 155, 295, 363]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [932, 402, 563, 267, 707]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+Average quick sort time = 82 ms
+
+Running algorithms for insertSort for sub-arrays < 100 in length
+before StdMergeSort isSorted = false [977, 750, 722, 543, 995]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [978, 864, 505, 220, 369]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [511, 429, 721, 411, 213]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [649, 199, 215, 742, 456]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [120, 93, 480, 875, 171]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [536, 121, 442, 592, 677]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [152, 943, 414, 92, 155]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [597, 534, 364, 827, 137]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [134, 392, 155, 295, 363]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [932, 402, 563, 267, 707]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+Average standard merge sort time = 138 ms
+before quickSort isSorted = false [977, 750, 722, 543, 995]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [978, 864, 505, 220, 369]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [511, 429, 721, 411, 213]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [649, 199, 215, 742, 456]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [120, 93, 480, 875, 171]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [536, 121, 442, 592, 677]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [152, 943, 414, 92, 155]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [597, 534, 364, 827, 137]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [134, 392, 155, 295, 363]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [932, 402, 563, 267, 707]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+Average quick sort time = 127 ms
+
+Running algorithms for both isSorted check and insertSort on sub-arrays
+before StdMergeSort isSorted = false [977, 750, 722, 543, 995]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [978, 864, 505, 220, 369]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [511, 429, 721, 411, 213]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [649, 199, 215, 742, 456]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [120, 93, 480, 875, 171]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [536, 121, 442, 592, 677]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [152, 943, 414, 92, 155]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [597, 534, 364, 827, 137]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [134, 392, 155, 295, 363]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [932, 402, 563, 267, 707]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+Average standard merge sort time = 139 ms
+before quickSort isSorted = false [977, 750, 722, 543, 995]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [978, 864, 505, 220, 369]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [511, 429, 721, 411, 213]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [649, 199, 215, 742, 456]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [120, 93, 480, 875, 171]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [536, 121, 442, 592, 677]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [152, 943, 414, 92, 155]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [597, 534, 364, 827, 137]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [134, 392, 155, 295, 363]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [932, 402, 563, 267, 707]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+Average quick sort time = 83 ms
+
+Generating 10 sets of 4000000 ints from 1 - 1000
+Running algorithms for base case
+before StdMergeSort isSorted = false [835, 138, 924, 638, 700]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [635, 519, 37, 861, 844]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [808, 240, 635, 55, 762]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [854, 749, 619, 238, 209]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [796, 470, 327, 625, 462]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [245, 914, 913, 964, 847]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [441, 286, 649, 283, 798]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [241, 77, 167, 536, 795]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [564, 318, 776, 415, 657]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [737, 203, 249, 578, 715]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+Average standard merge sort time = 373 ms
+before quickSort isSorted = false [835, 138, 924, 638, 700]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [635, 519, 37, 861, 844]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [808, 240, 635, 55, 762]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [854, 749, 619, 238, 209]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [796, 470, 327, 625, 462]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [245, 914, 913, 964, 847]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [441, 286, 649, 283, 798]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [241, 77, 167, 536, 795]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [564, 318, 776, 415, 657]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [737, 203, 249, 578, 715]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+Average quick sort time = 208 ms
+
+Running algorithms for isSorted check on sub-arrays
+before StdMergeSort isSorted = false [835, 138, 924, 638, 700]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [635, 519, 37, 861, 844]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [808, 240, 635, 55, 762]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [854, 749, 619, 238, 209]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [796, 470, 327, 625, 462]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [245, 914, 913, 964, 847]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [441, 286, 649, 283, 798]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [241, 77, 167, 536, 795]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [564, 318, 776, 415, 657]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [737, 203, 249, 578, 715]
+after StdMergeSort isSorted = false [1, 1, 1, 1, 1]
+Average standard merge sort time = 335 ms
+before quickSort isSorted = false [835, 138, 924, 638, 700]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [635, 519, 37, 861, 844]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [808, 240, 635, 55, 762]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [854, 749, 619, 238, 209]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [796, 470, 327, 625, 462]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [245, 914, 913, 964, 847]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [441, 286, 649, 283, 798]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [241, 77, 167, 536, 795]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [564, 318, 776, 415, 657]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [737, 203, 249, 578, 715]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+Average quick sort time = 174 ms
+
+Running algorithms for insertSort for sub-arrays < 100 in length
+before StdMergeSort isSorted = false [835, 138, 924, 638, 700]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [635, 519, 37, 861, 844]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [808, 240, 635, 55, 762]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [854, 749, 619, 238, 209]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [796, 470, 327, 625, 462]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [245, 914, 913, 964, 847]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [441, 286, 649, 283, 798]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [241, 77, 167, 536, 795]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [564, 318, 776, 415, 657]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [737, 203, 249, 578, 715]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+Average standard merge sort time = 315 ms
+before quickSort isSorted = false [835, 138, 924, 638, 700]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [635, 519, 37, 861, 844]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [808, 240, 635, 55, 762]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [854, 749, 619, 238, 209]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [796, 470, 327, 625, 462]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [245, 914, 913, 964, 847]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [441, 286, 649, 283, 798]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [241, 77, 167, 536, 795]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [564, 318, 776, 415, 657]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [737, 203, 249, 578, 715]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+Average quick sort time = 267 ms
+
+Running algorithms for both isSorted check and insertSort on sub-arrays
+before StdMergeSort isSorted = false [835, 138, 924, 638, 700]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [635, 519, 37, 861, 844]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [808, 240, 635, 55, 762]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [854, 749, 619, 238, 209]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [796, 470, 327, 625, 462]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [245, 914, 913, 964, 847]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [441, 286, 649, 283, 798]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [241, 77, 167, 536, 795]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [564, 318, 776, 415, 657]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [737, 203, 249, 578, 715]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+Average standard merge sort time = 298 ms
+before quickSort isSorted = false [835, 138, 924, 638, 700]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [635, 519, 37, 861, 844]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [808, 240, 635, 55, 762]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [854, 749, 619, 238, 209]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [796, 470, 327, 625, 462]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [245, 914, 913, 964, 847]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [441, 286, 649, 283, 798]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [241, 77, 167, 536, 795]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [564, 318, 776, 415, 657]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [737, 203, 249, 578, 715]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+Average quick sort time = 165 ms
+
+Generating 10 sets of 1000000 ints from 1 - 1000000
+Running algorithms for base case
+before StdMergeSort isSorted = false [608239, 340404, 503957, 103402, 796335]
+after StdMergeSort isSorted = true [2, 2, 3, 3, 5]
+before StdMergeSort isSorted = false [340169, 752276, 553186, 751579, 928196]
+after StdMergeSort isSorted = true [3, 6, 7, 11, 11]
+before StdMergeSort isSorted = false [771874, 355797, 513492, 309284, 937560]
+after StdMergeSort isSorted = true [1, 1, 1, 2, 2]
+before StdMergeSort isSorted = false [886916, 123671, 736840, 482361, 999791]
+after StdMergeSort isSorted = true [3, 3, 4, 4, 5]
+before StdMergeSort isSorted = false [492913, 20159, 630507, 104890, 578943]
+after StdMergeSort isSorted = true [1, 1, 2, 4, 5]
+before StdMergeSort isSorted = false [858868, 855840, 640826, 788782, 460208]
+after StdMergeSort isSorted = true [1, 1, 2, 2, 5]
+before StdMergeSort isSorted = false [958634, 123191, 556587, 833739, 985000]
+after StdMergeSort isSorted = true [1, 1, 2, 4, 5]
+before StdMergeSort isSorted = false [146888, 294054, 299470, 565841, 440245]
+after StdMergeSort isSorted = true [2, 2, 3, 3, 4]
+before StdMergeSort isSorted = false [397886, 293261, 742386, 110222, 392693]
+after StdMergeSort isSorted = true [2, 2, 2, 4, 5]
+before StdMergeSort isSorted = false [479066, 209507, 197054, 975802, 17978]
+after StdMergeSort isSorted = true [1, 2, 3, 3, 3]
+Average standard merge sort time = 116 ms
+before quickSort isSorted = false [608239, 340404, 503957, 103402, 796335]
+after quickSort isSorted = true [2, 2, 3, 3, 5]
+true
+before quickSort isSorted = false [340169, 752276, 553186, 751579, 928196]
+after quickSort isSorted = true [3, 6, 7, 11, 11]
+true
+before quickSort isSorted = false [771874, 355797, 513492, 309284, 937560]
+after quickSort isSorted = true [1, 1, 1, 2, 2]
+true
+before quickSort isSorted = false [886916, 123671, 736840, 482361, 999791]
+after quickSort isSorted = true [3, 3, 4, 4, 5]
+true
+before quickSort isSorted = false [492913, 20159, 630507, 104890, 578943]
+after quickSort isSorted = true [1, 1, 2, 4, 5]
+true
+before quickSort isSorted = false [858868, 855840, 640826, 788782, 460208]
+after quickSort isSorted = true [1, 1, 2, 2, 5]
+true
+before quickSort isSorted = false [958634, 123191, 556587, 833739, 985000]
+after quickSort isSorted = true [1, 1, 2, 4, 5]
+true
+before quickSort isSorted = false [146888, 294054, 299470, 565841, 440245]
+after quickSort isSorted = true [2, 2, 3, 3, 4]
+true
+before quickSort isSorted = false [397886, 293261, 742386, 110222, 392693]
+after quickSort isSorted = true [2, 2, 2, 4, 5]
+true
+before quickSort isSorted = false [479066, 209507, 197054, 975802, 17978]
+after quickSort isSorted = true [1, 2, 3, 3, 3]
+true
+Average quick sort time = 86 ms
+
+Running algorithms for isSorted check on sub-arrays
+before StdMergeSort isSorted = false [608239, 340404, 503957, 103402, 796335]
+after StdMergeSort isSorted = false [2, 5, 9, 11, 15]
+before StdMergeSort isSorted = false [340169, 752276, 553186, 751579, 928196]
+after StdMergeSort isSorted = false [6, 7, 17, 19, 19]
+before StdMergeSort isSorted = false [771874, 355797, 513492, 309284, 937560]
+after StdMergeSort isSorted = false [1, 2, 5, 8, 12]
+before StdMergeSort isSorted = false [886916, 123671, 736840, 482361, 999791]
+after StdMergeSort isSorted = false [4, 5, 6, 6, 7]
+before StdMergeSort isSorted = false [492913, 20159, 630507, 104890, 578943]
+after StdMergeSort isSorted = false [1, 1, 4, 5, 7]
+before StdMergeSort isSorted = false [858868, 855840, 640826, 788782, 460208]
+after StdMergeSort isSorted = false [1, 1, 5, 5, 6]
+before StdMergeSort isSorted = false [958634, 123191, 556587, 833739, 985000]
+after StdMergeSort isSorted = false [1, 2, 4, 6, 11]
+before StdMergeSort isSorted = false [146888, 294054, 299470, 565841, 440245]
+after StdMergeSort isSorted = false [2, 4, 5, 6, 8]
+before StdMergeSort isSorted = false [397886, 293261, 742386, 110222, 392693]
+after StdMergeSort isSorted = false [4, 5, 5, 8, 9]
+before StdMergeSort isSorted = false [479066, 209507, 197054, 975802, 17978]
+after StdMergeSort isSorted = false [3, 3, 5, 7, 9]
+Average standard merge sort time = 100 ms
+before quickSort isSorted = false [608239, 340404, 503957, 103402, 796335]
+after quickSort isSorted = false [2, 2, 3, 3, 5]
+false
+before quickSort isSorted = false [340169, 752276, 553186, 751579, 928196]
+after quickSort isSorted = false [3, 7, 6, 11, 11]
+false
+before quickSort isSorted = false [771874, 355797, 513492, 309284, 937560]
+after quickSort isSorted = false [1, 1, 1, 2, 2]
+false
+before quickSort isSorted = false [886916, 123671, 736840, 482361, 999791]
+after quickSort isSorted = false [3, 3, 4, 4, 5]
+false
+before quickSort isSorted = false [492913, 20159, 630507, 104890, 578943]
+after quickSort isSorted = false [1, 1, 2, 4, 5]
+false
+before quickSort isSorted = false [858868, 855840, 640826, 788782, 460208]
+after quickSort isSorted = false [1, 1, 2, 5, 2]
+false
+before quickSort isSorted = false [958634, 123191, 556587, 833739, 985000]
+after quickSort isSorted = false [1, 1, 4, 2, 5]
+false
+before quickSort isSorted = false [146888, 294054, 299470, 565841, 440245]
+after quickSort isSorted = false [2, 2, 3, 3, 5]
+false
+before quickSort isSorted = false [397886, 293261, 742386, 110222, 392693]
+after quickSort isSorted = false [2, 2, 2, 4, 5]
+false
+before quickSort isSorted = false [479066, 209507, 197054, 975802, 17978]
+after quickSort isSorted = false [1, 2, 3, 3, 3]
+false
+Average quick sort time = 84 ms
+
+Running algorithms for insertSort for sub-arrays < 100 in length
+before StdMergeSort isSorted = false [608239, 340404, 503957, 103402, 796335]
+after StdMergeSort isSorted = true [2, 2, 3, 3, 5]
+before StdMergeSort isSorted = false [340169, 752276, 553186, 751579, 928196]
+after StdMergeSort isSorted = true [3, 6, 7, 11, 11]
+before StdMergeSort isSorted = false [771874, 355797, 513492, 309284, 937560]
+after StdMergeSort isSorted = true [1, 1, 1, 2, 2]
+before StdMergeSort isSorted = false [886916, 123671, 736840, 482361, 999791]
+after StdMergeSort isSorted = true [3, 3, 4, 4, 5]
+before StdMergeSort isSorted = false [492913, 20159, 630507, 104890, 578943]
+after StdMergeSort isSorted = true [1, 1, 2, 4, 5]
+before StdMergeSort isSorted = false [858868, 855840, 640826, 788782, 460208]
+after StdMergeSort isSorted = true [1, 1, 2, 2, 5]
+before StdMergeSort isSorted = false [958634, 123191, 556587, 833739, 985000]
+after StdMergeSort isSorted = true [1, 1, 2, 4, 5]
+before StdMergeSort isSorted = false [146888, 294054, 299470, 565841, 440245]
+after StdMergeSort isSorted = true [2, 2, 3, 3, 4]
+before StdMergeSort isSorted = false [397886, 293261, 742386, 110222, 392693]
+after StdMergeSort isSorted = true [2, 2, 2, 4, 5]
+before StdMergeSort isSorted = false [479066, 209507, 197054, 975802, 17978]
+after StdMergeSort isSorted = true [1, 2, 3, 3, 3]
+Average standard merge sort time = 93 ms
+before quickSort isSorted = false [608239, 340404, 503957, 103402, 796335]
+after quickSort isSorted = true [2, 2, 3, 3, 5]
+true
+before quickSort isSorted = false [340169, 752276, 553186, 751579, 928196]
+after quickSort isSorted = true [3, 6, 7, 11, 11]
+true
+before quickSort isSorted = false [771874, 355797, 513492, 309284, 937560]
+after quickSort isSorted = true [1, 1, 1, 2, 2]
+true
+before quickSort isSorted = false [886916, 123671, 736840, 482361, 999791]
+after quickSort isSorted = true [3, 3, 4, 4, 5]
+true
+before quickSort isSorted = false [492913, 20159, 630507, 104890, 578943]
+after quickSort isSorted = true [1, 1, 2, 4, 5]
+true
+before quickSort isSorted = false [858868, 855840, 640826, 788782, 460208]
+after quickSort isSorted = true [1, 1, 2, 2, 5]
+true
+before quickSort isSorted = false [958634, 123191, 556587, 833739, 985000]
+after quickSort isSorted = true [1, 1, 2, 4, 5]
+true
+before quickSort isSorted = false [146888, 294054, 299470, 565841, 440245]
+after quickSort isSorted = true [2, 2, 3, 3, 4]
+true
+before quickSort isSorted = false [397886, 293261, 742386, 110222, 392693]
+after quickSort isSorted = true [2, 2, 2, 4, 5]
+true
+before quickSort isSorted = false [479066, 209507, 197054, 975802, 17978]
+after quickSort isSorted = true [1, 2, 3, 3, 3]
+true
+Average quick sort time = 70 ms
+
+Running algorithms for both isSorted check and insertSort on sub-arrays
+before StdMergeSort isSorted = false [608239, 340404, 503957, 103402, 796335]
+after StdMergeSort isSorted = true [2, 2, 3, 3, 5]
+before StdMergeSort isSorted = false [340169, 752276, 553186, 751579, 928196]
+after StdMergeSort isSorted = true [3, 6, 7, 11, 11]
+before StdMergeSort isSorted = false [771874, 355797, 513492, 309284, 937560]
+after StdMergeSort isSorted = true [1, 1, 1, 2, 2]
+before StdMergeSort isSorted = false [886916, 123671, 736840, 482361, 999791]
+after StdMergeSort isSorted = true [3, 3, 4, 4, 5]
+before StdMergeSort isSorted = false [492913, 20159, 630507, 104890, 578943]
+after StdMergeSort isSorted = true [1, 1, 2, 4, 5]
+before StdMergeSort isSorted = false [858868, 855840, 640826, 788782, 460208]
+after StdMergeSort isSorted = true [1, 1, 2, 2, 5]
+before StdMergeSort isSorted = false [958634, 123191, 556587, 833739, 985000]
+after StdMergeSort isSorted = true [1, 1, 2, 4, 5]
+before StdMergeSort isSorted = false [146888, 294054, 299470, 565841, 440245]
+after StdMergeSort isSorted = true [2, 2, 3, 3, 4]
+before StdMergeSort isSorted = false [397886, 293261, 742386, 110222, 392693]
+after StdMergeSort isSorted = true [2, 2, 2, 4, 5]
+before StdMergeSort isSorted = false [479066, 209507, 197054, 975802, 17978]
+after StdMergeSort isSorted = true [1, 2, 3, 3, 3]
+Average standard merge sort time = 92 ms
+before quickSort isSorted = false [608239, 340404, 503957, 103402, 796335]
+after quickSort isSorted = false [2, 2, 3, 3, 5]
+false
+before quickSort isSorted = false [340169, 752276, 553186, 751579, 928196]
+after quickSort isSorted = false [3, 6, 7, 11, 11]
+false
+before quickSort isSorted = false [771874, 355797, 513492, 309284, 937560]
+after quickSort isSorted = false [1, 1, 1, 2, 2]
+false
+before quickSort isSorted = false [886916, 123671, 736840, 482361, 999791]
+after quickSort isSorted = false [3, 3, 4, 4, 5]
+false
+before quickSort isSorted = false [492913, 20159, 630507, 104890, 578943]
+after quickSort isSorted = false [1, 1, 2, 4, 5]
+false
+before quickSort isSorted = false [858868, 855840, 640826, 788782, 460208]
+after quickSort isSorted = false [1, 1, 2, 2, 5]
+false
+before quickSort isSorted = false [958634, 123191, 556587, 833739, 985000]
+after quickSort isSorted = false [1, 1, 2, 4, 5]
+false
+before quickSort isSorted = false [146888, 294054, 299470, 565841, 440245]
+after quickSort isSorted = false [2, 2, 3, 3, 4]
+false
+before quickSort isSorted = false [397886, 293261, 742386, 110222, 392693]
+after quickSort isSorted = false [2, 2, 2, 4, 5]
+false
+before quickSort isSorted = false [479066, 209507, 197054, 975802, 17978]
+after quickSort isSorted = false [1, 2, 3, 3, 3]
+false
+Average quick sort time = 70 ms
+
+Generating 10 sets of 2000000 ints from 1 - 1000000
+Running algorithms for base case
+before StdMergeSort isSorted = false [429389, 940490, 389057, 668771, 979680]
+after StdMergeSort isSorted = true [1, 1, 4, 4, 5]
+before StdMergeSort isSorted = false [350776, 13321, 114696, 770488, 821189]
+after StdMergeSort isSorted = true [1, 3, 3, 4, 4]
+before StdMergeSort isSorted = false [335902, 5547, 228391, 456013, 281287]
+after StdMergeSort isSorted = true [1, 2, 2, 3, 3]
+before StdMergeSort isSorted = false [483928, 236616, 762359, 630046, 323134]
+after StdMergeSort isSorted = true [1, 1, 3, 3, 3]
+before StdMergeSort isSorted = false [449569, 177160, 776790, 697785, 54060]
+after StdMergeSort isSorted = true [1, 2, 2, 3, 3]
+before StdMergeSort isSorted = false [59347, 398787, 611271, 178347, 335515]
+after StdMergeSort isSorted = true [2, 2, 5, 5, 6]
+before StdMergeSort isSorted = false [800720, 688206, 49617, 303172, 839161]
+after StdMergeSort isSorted = true [2, 2, 3, 3, 3]
+before StdMergeSort isSorted = false [133473, 677490, 563599, 433589, 233085]
+after StdMergeSort isSorted = true [2, 2, 3, 3, 3]
+before StdMergeSort isSorted = false [361269, 513555, 188376, 82679, 753735]
+after StdMergeSort isSorted = true [1, 2, 2, 3, 3]
+before StdMergeSort isSorted = false [553090, 876251, 203465, 684196, 385078]
+after StdMergeSort isSorted = true [1, 2, 3, 4, 5]
+Average standard merge sort time = 241 ms
+before quickSort isSorted = false [429389, 940490, 389057, 668771, 979680]
+after quickSort isSorted = true [1, 1, 4, 4, 5]
+true
+before quickSort isSorted = false [350776, 13321, 114696, 770488, 821189]
+after quickSort isSorted = true [1, 3, 3, 4, 4]
+true
+before quickSort isSorted = false [335902, 5547, 228391, 456013, 281287]
+after quickSort isSorted = true [1, 2, 2, 3, 3]
+true
+before quickSort isSorted = false [483928, 236616, 762359, 630046, 323134]
+after quickSort isSorted = true [1, 1, 3, 3, 3]
+true
+before quickSort isSorted = false [449569, 177160, 776790, 697785, 54060]
+after quickSort isSorted = true [1, 2, 2, 3, 3]
+true
+before quickSort isSorted = false [59347, 398787, 611271, 178347, 335515]
+after quickSort isSorted = true [2, 2, 5, 5, 6]
+true
+before quickSort isSorted = false [800720, 688206, 49617, 303172, 839161]
+after quickSort isSorted = true [2, 2, 3, 3, 3]
+true
+before quickSort isSorted = false [133473, 677490, 563599, 433589, 233085]
+after quickSort isSorted = true [2, 2, 3, 3, 3]
+true
+before quickSort isSorted = false [361269, 513555, 188376, 82679, 753735]
+after quickSort isSorted = true [1, 2, 2, 3, 3]
+true
+before quickSort isSorted = false [553090, 876251, 203465, 684196, 385078]
+after quickSort isSorted = true [1, 2, 3, 4, 5]
+true
+Average quick sort time = 176 ms
+
+Running algorithms for isSorted check on sub-arrays
+before StdMergeSort isSorted = false [429389, 940490, 389057, 668771, 979680]
+after StdMergeSort isSorted = false [4, 5, 6, 8, 10]
+before StdMergeSort isSorted = false [350776, 13321, 114696, 770488, 821189]
+after StdMergeSort isSorted = false [3, 5, 5, 5, 5]
+before StdMergeSort isSorted = false [335902, 5547, 228391, 456013, 281287]
+after StdMergeSort isSorted = false [2, 2, 3, 3, 5]
+before StdMergeSort isSorted = false [483928, 236616, 762359, 630046, 323134]
+after StdMergeSort isSorted = false [1, 3, 3, 5, 5]
+before StdMergeSort isSorted = false [449569, 177160, 776790, 697785, 54060]
+after StdMergeSort isSorted = false [1, 2, 2, 3, 5]
+before StdMergeSort isSorted = false [59347, 398787, 611271, 178347, 335515]
+after StdMergeSort isSorted = false [2, 5, 6, 7, 8]
+before StdMergeSort isSorted = false [800720, 688206, 49617, 303172, 839161]
+after StdMergeSort isSorted = false [2, 3, 4, 5, 6]
+before StdMergeSort isSorted = false [133473, 677490, 563599, 433589, 233085]
+after StdMergeSort isSorted = false [2, 3, 4, 4, 5]
+before StdMergeSort isSorted = false [361269, 513555, 188376, 82679, 753735]
+after StdMergeSort isSorted = false [2, 3, 3, 4, 4]
+before StdMergeSort isSorted = false [553090, 876251, 203465, 684196, 385078]
+after StdMergeSort isSorted = false [1, 3, 4, 6, 7]
+Average standard merge sort time = 212 ms
+before quickSort isSorted = false [429389, 940490, 389057, 668771, 979680]
+after quickSort isSorted = false [1, 1, 4, 4, 5]
+false
+before quickSort isSorted = false [350776, 13321, 114696, 770488, 821189]
+after quickSort isSorted = false [1, 3, 3, 4, 5]
+false
+before quickSort isSorted = false [335902, 5547, 228391, 456013, 281287]
+after quickSort isSorted = false [1, 2, 2, 3, 3]
+false
+before quickSort isSorted = false [483928, 236616, 762359, 630046, 323134]
+after quickSort isSorted = false [1, 1, 3, 3, 5]
+false
+before quickSort isSorted = false [449569, 177160, 776790, 697785, 54060]
+after quickSort isSorted = false [1, 2, 2, 3, 3]
+false
+before quickSort isSorted = false [59347, 398787, 611271, 178347, 335515]
+after quickSort isSorted = false [2, 2, 5, 5, 6]
+false
+before quickSort isSorted = false [800720, 688206, 49617, 303172, 839161]
+after quickSort isSorted = false [2, 2, 3, 3, 3]
+false
+before quickSort isSorted = false [133473, 677490, 563599, 433589, 233085]
+after quickSort isSorted = false [2, 2, 3, 3, 3]
+false
+before quickSort isSorted = false [361269, 513555, 188376, 82679, 753735]
+after quickSort isSorted = false [1, 2, 2, 3, 3]
+false
+before quickSort isSorted = false [553090, 876251, 203465, 684196, 385078]
+after quickSort isSorted = false [1, 2, 3, 4, 5]
+false
+Average quick sort time = 172 ms
+
+Running algorithms for insertSort for sub-arrays < 100 in length
+before StdMergeSort isSorted = false [429389, 940490, 389057, 668771, 979680]
+after StdMergeSort isSorted = true [1, 1, 4, 4, 5]
+before StdMergeSort isSorted = false [350776, 13321, 114696, 770488, 821189]
+after StdMergeSort isSorted = true [1, 3, 3, 4, 4]
+before StdMergeSort isSorted = false [335902, 5547, 228391, 456013, 281287]
+after StdMergeSort isSorted = true [1, 2, 2, 3, 3]
+before StdMergeSort isSorted = false [483928, 236616, 762359, 630046, 323134]
+after StdMergeSort isSorted = true [1, 1, 3, 3, 3]
+before StdMergeSort isSorted = false [449569, 177160, 776790, 697785, 54060]
+after StdMergeSort isSorted = true [1, 2, 2, 3, 3]
+before StdMergeSort isSorted = false [59347, 398787, 611271, 178347, 335515]
+after StdMergeSort isSorted = true [2, 2, 5, 5, 6]
+before StdMergeSort isSorted = false [800720, 688206, 49617, 303172, 839161]
+after StdMergeSort isSorted = true [2, 2, 3, 3, 3]
+before StdMergeSort isSorted = false [133473, 677490, 563599, 433589, 233085]
+after StdMergeSort isSorted = true [2, 2, 3, 3, 3]
+before StdMergeSort isSorted = false [361269, 513555, 188376, 82679, 753735]
+after StdMergeSort isSorted = true [1, 2, 2, 3, 3]
+before StdMergeSort isSorted = false [553090, 876251, 203465, 684196, 385078]
+after StdMergeSort isSorted = true [1, 2, 3, 4, 5]
+Average standard merge sort time = 194 ms
+before quickSort isSorted = false [429389, 940490, 389057, 668771, 979680]
+after quickSort isSorted = true [1, 1, 4, 4, 5]
+true
+before quickSort isSorted = false [350776, 13321, 114696, 770488, 821189]
+after quickSort isSorted = true [1, 3, 3, 4, 4]
+true
+before quickSort isSorted = false [335902, 5547, 228391, 456013, 281287]
+after quickSort isSorted = true [1, 2, 2, 3, 3]
+true
+before quickSort isSorted = false [483928, 236616, 762359, 630046, 323134]
+after quickSort isSorted = true [1, 1, 3, 3, 3]
+true
+before quickSort isSorted = false [449569, 177160, 776790, 697785, 54060]
+after quickSort isSorted = true [1, 2, 2, 3, 3]
+true
+before quickSort isSorted = false [59347, 398787, 611271, 178347, 335515]
+after quickSort isSorted = true [2, 2, 5, 5, 6]
+true
+before quickSort isSorted = false [800720, 688206, 49617, 303172, 839161]
+after quickSort isSorted = true [2, 2, 3, 3, 3]
+true
+before quickSort isSorted = false [133473, 677490, 563599, 433589, 233085]
+after quickSort isSorted = true [2, 2, 3, 3, 3]
+true
+before quickSort isSorted = false [361269, 513555, 188376, 82679, 753735]
+after quickSort isSorted = true [1, 2, 2, 3, 3]
+true
+before quickSort isSorted = false [553090, 876251, 203465, 684196, 385078]
+after quickSort isSorted = true [1, 2, 3, 4, 5]
+true
+Average quick sort time = 145 ms
+
+Running algorithms for both isSorted check and insertSort on sub-arrays
+before StdMergeSort isSorted = false [429389, 940490, 389057, 668771, 979680]
+after StdMergeSort isSorted = true [1, 1, 4, 4, 5]
+before StdMergeSort isSorted = false [350776, 13321, 114696, 770488, 821189]
+after StdMergeSort isSorted = true [1, 3, 3, 4, 4]
+before StdMergeSort isSorted = false [335902, 5547, 228391, 456013, 281287]
+after StdMergeSort isSorted = true [1, 2, 2, 3, 3]
+before StdMergeSort isSorted = false [483928, 236616, 762359, 630046, 323134]
+after StdMergeSort isSorted = true [1, 1, 3, 3, 3]
+before StdMergeSort isSorted = false [449569, 177160, 776790, 697785, 54060]
+after StdMergeSort isSorted = true [1, 2, 2, 3, 3]
+before StdMergeSort isSorted = false [59347, 398787, 611271, 178347, 335515]
+after StdMergeSort isSorted = true [2, 2, 5, 5, 6]
+before StdMergeSort isSorted = false [800720, 688206, 49617, 303172, 839161]
+after StdMergeSort isSorted = true [2, 2, 3, 3, 3]
+before StdMergeSort isSorted = false [133473, 677490, 563599, 433589, 233085]
+after StdMergeSort isSorted = true [2, 2, 3, 3, 3]
+before StdMergeSort isSorted = false [361269, 513555, 188376, 82679, 753735]
+after StdMergeSort isSorted = true [1, 2, 2, 3, 3]
+before StdMergeSort isSorted = false [553090, 876251, 203465, 684196, 385078]
+after StdMergeSort isSorted = true [1, 2, 3, 4, 5]
+Average standard merge sort time = 193 ms
+before quickSort isSorted = false [429389, 940490, 389057, 668771, 979680]
+after quickSort isSorted = false [1, 1, 4, 4, 5]
+false
+before quickSort isSorted = false [350776, 13321, 114696, 770488, 821189]
+after quickSort isSorted = false [1, 3, 3, 4, 4]
+false
+before quickSort isSorted = false [335902, 5547, 228391, 456013, 281287]
+after quickSort isSorted = false [1, 2, 2, 3, 3]
+false
+before quickSort isSorted = false [483928, 236616, 762359, 630046, 323134]
+after quickSort isSorted = false [1, 1, 3, 3, 3]
+false
+before quickSort isSorted = false [449569, 177160, 776790, 697785, 54060]
+after quickSort isSorted = false [1, 2, 2, 3, 3]
+false
+before quickSort isSorted = false [59347, 398787, 611271, 178347, 335515]
+after quickSort isSorted = false [2, 2, 5, 5, 6]
+false
+before quickSort isSorted = false [800720, 688206, 49617, 303172, 839161]
+after quickSort isSorted = false [2, 2, 3, 3, 3]
+false
+before quickSort isSorted = false [133473, 677490, 563599, 433589, 233085]
+after quickSort isSorted = false [2, 2, 3, 3, 3]
+false
+before quickSort isSorted = false [361269, 513555, 188376, 82679, 753735]
+after quickSort isSorted = false [1, 2, 2, 3, 3]
+false
+before quickSort isSorted = false [553090, 876251, 203465, 684196, 385078]
+after quickSort isSorted = false [1, 2, 3, 4, 5]
+false
+Average quick sort time = 148 ms
+
+Generating 10 sets of 4000000 ints from 1 - 1000000
+Running algorithms for base case
+before StdMergeSort isSorted = false [182260, 850259, 193640, 199722, 709541]
+after StdMergeSort isSorted = true [1, 2, 2, 2, 2]
+before StdMergeSort isSorted = false [803757, 390729, 584072, 119546, 669601]
+after StdMergeSort isSorted = true [2, 2, 2, 2, 3]
+before StdMergeSort isSorted = false [197950, 67851, 392111, 780951, 118078]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 2]
+before StdMergeSort isSorted = false [345136, 990636, 174544, 173079, 926134]
+after StdMergeSort isSorted = true [1, 1, 2, 2, 3]
+before StdMergeSort isSorted = false [235353, 460061, 787523, 707302, 74570]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 2]
+before StdMergeSort isSorted = false [739566, 418059, 327118, 396534, 649468]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 2]
+before StdMergeSort isSorted = false [529902, 914353, 16535, 439496, 862668]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [591250, 292931, 983434, 15304, 144283]
+after StdMergeSort isSorted = true [1, 1, 2, 2, 2]
+before StdMergeSort isSorted = false [213172, 410937, 945099, 881726, 723959]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 2]
+before StdMergeSort isSorted = false [136369, 868060, 87133, 620262, 538591]
+after StdMergeSort isSorted = true [2, 2, 2, 3, 3]
+Average standard merge sort time = 487 ms
+before quickSort isSorted = false [182260, 850259, 193640, 199722, 709541]
+after quickSort isSorted = true [1, 2, 2, 2, 2]
+true
+before quickSort isSorted = false [803757, 390729, 584072, 119546, 669601]
+after quickSort isSorted = true [2, 2, 2, 2, 3]
+true
+before quickSort isSorted = false [197950, 67851, 392111, 780951, 118078]
+after quickSort isSorted = true [1, 1, 1, 1, 2]
+true
+before quickSort isSorted = false [345136, 990636, 174544, 173079, 926134]
+after quickSort isSorted = true [1, 1, 2, 2, 3]
+true
+before quickSort isSorted = false [235353, 460061, 787523, 707302, 74570]
+after quickSort isSorted = true [1, 1, 1, 1, 2]
+true
+before quickSort isSorted = false [739566, 418059, 327118, 396534, 649468]
+after quickSort isSorted = true [1, 1, 1, 1, 2]
+true
+before quickSort isSorted = false [529902, 914353, 16535, 439496, 862668]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [591250, 292931, 983434, 15304, 144283]
+after quickSort isSorted = true [1, 1, 2, 2, 2]
+true
+before quickSort isSorted = false [213172, 410937, 945099, 881726, 723959]
+after quickSort isSorted = true [1, 1, 1, 1, 2]
+true
+before quickSort isSorted = false [136369, 868060, 87133, 620262, 538591]
+after quickSort isSorted = true [2, 2, 2, 3, 3]
+true
+Average quick sort time = 340 ms
+
+Running algorithms for isSorted check on sub-arrays
+before StdMergeSort isSorted = false [182260, 850259, 193640, 199722, 709541]
+after StdMergeSort isSorted = false [1, 2, 3, 3, 3]
+before StdMergeSort isSorted = false [803757, 390729, 584072, 119546, 669601]
+after StdMergeSort isSorted = false [2, 2, 3, 3, 3]
+before StdMergeSort isSorted = false [197950, 67851, 392111, 780951, 118078]
+after StdMergeSort isSorted = false [1, 1, 1, 2, 2]
+before StdMergeSort isSorted = false [345136, 990636, 174544, 173079, 926134]
+after StdMergeSort isSorted = false [1, 2, 3, 4, 4]
+before StdMergeSort isSorted = false [235353, 460061, 787523, 707302, 74570]
+after StdMergeSort isSorted = false [1, 1, 1, 2, 2]
+before StdMergeSort isSorted = false [739566, 418059, 327118, 396534, 649468]
+after StdMergeSort isSorted = false [1, 1, 1, 2, 3]
+before StdMergeSort isSorted = false [529902, 914353, 16535, 439496, 862668]
+after StdMergeSort isSorted = false [1, 1, 1, 2, 2]
+before StdMergeSort isSorted = false [591250, 292931, 983434, 15304, 144283]
+after StdMergeSort isSorted = false [1, 1, 2, 2, 2]
+before StdMergeSort isSorted = false [213172, 410937, 945099, 881726, 723959]
+after StdMergeSort isSorted = false [1, 1, 1, 3, 3]
+before StdMergeSort isSorted = false [136369, 868060, 87133, 620262, 538591]
+after StdMergeSort isSorted = false [2, 3, 3, 4, 7]
+Average standard merge sort time = 424 ms
+before quickSort isSorted = false [182260, 850259, 193640, 199722, 709541]
+after quickSort isSorted = false [1, 2, 2, 2, 2]
+false
+before quickSort isSorted = false [803757, 390729, 584072, 119546, 669601]
+after quickSort isSorted = false [2, 2, 2, 2, 3]
+false
+before quickSort isSorted = false [197950, 67851, 392111, 780951, 118078]
+after quickSort isSorted = false [1, 1, 1, 2, 1]
+false
+before quickSort isSorted = false [345136, 990636, 174544, 173079, 926134]
+after quickSort isSorted = false [1, 1, 2, 2, 3]
+false
+before quickSort isSorted = false [235353, 460061, 787523, 707302, 74570]
+after quickSort isSorted = false [1, 1, 1, 1, 2]
+false
+before quickSort isSorted = false [739566, 418059, 327118, 396534, 649468]
+after quickSort isSorted = false [1, 1, 1, 1, 2]
+false
+before quickSort isSorted = false [529902, 914353, 16535, 439496, 862668]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [591250, 292931, 983434, 15304, 144283]
+after quickSort isSorted = false [1, 1, 2, 2, 2]
+false
+before quickSort isSorted = false [213172, 410937, 945099, 881726, 723959]
+after quickSort isSorted = false [1, 1, 1, 2, 1]
+false
+before quickSort isSorted = false [136369, 868060, 87133, 620262, 538591]
+after quickSort isSorted = false [2, 2, 2, 3, 3]
+false
+Average quick sort time = 337 ms
+
+Running algorithms for insertSort for sub-arrays < 100 in length
+before StdMergeSort isSorted = false [182260, 850259, 193640, 199722, 709541]
+after StdMergeSort isSorted = true [1, 2, 2, 2, 2]
+before StdMergeSort isSorted = false [803757, 390729, 584072, 119546, 669601]
+after StdMergeSort isSorted = true [2, 2, 2, 2, 3]
+before StdMergeSort isSorted = false [197950, 67851, 392111, 780951, 118078]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 2]
+before StdMergeSort isSorted = false [345136, 990636, 174544, 173079, 926134]
+after StdMergeSort isSorted = true [1, 1, 2, 2, 3]
+before StdMergeSort isSorted = false [235353, 460061, 787523, 707302, 74570]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 2]
+before StdMergeSort isSorted = false [739566, 418059, 327118, 396534, 649468]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 2]
+before StdMergeSort isSorted = false [529902, 914353, 16535, 439496, 862668]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [591250, 292931, 983434, 15304, 144283]
+after StdMergeSort isSorted = true [1, 1, 2, 2, 2]
+before StdMergeSort isSorted = false [213172, 410937, 945099, 881726, 723959]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 2]
+before StdMergeSort isSorted = false [136369, 868060, 87133, 620262, 538591]
+after StdMergeSort isSorted = true [2, 2, 2, 3, 3]
+Average standard merge sort time = 408 ms
+before quickSort isSorted = false [182260, 850259, 193640, 199722, 709541]
+after quickSort isSorted = true [1, 2, 2, 2, 2]
+true
+before quickSort isSorted = false [803757, 390729, 584072, 119546, 669601]
+after quickSort isSorted = true [2, 2, 2, 2, 3]
+true
+before quickSort isSorted = false [197950, 67851, 392111, 780951, 118078]
+after quickSort isSorted = true [1, 1, 1, 1, 2]
+true
+before quickSort isSorted = false [345136, 990636, 174544, 173079, 926134]
+after quickSort isSorted = true [1, 1, 2, 2, 3]
+true
+before quickSort isSorted = false [235353, 460061, 787523, 707302, 74570]
+after quickSort isSorted = true [1, 1, 1, 1, 2]
+true
+before quickSort isSorted = false [739566, 418059, 327118, 396534, 649468]
+after quickSort isSorted = true [1, 1, 1, 1, 2]
+true
+before quickSort isSorted = false [529902, 914353, 16535, 439496, 862668]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [591250, 292931, 983434, 15304, 144283]
+after quickSort isSorted = true [1, 1, 2, 2, 2]
+true
+before quickSort isSorted = false [213172, 410937, 945099, 881726, 723959]
+after quickSort isSorted = true [1, 1, 1, 1, 2]
+true
+before quickSort isSorted = false [136369, 868060, 87133, 620262, 538591]
+after quickSort isSorted = true [2, 2, 2, 3, 3]
+true
+Average quick sort time = 303 ms
+
+Running algorithms for both isSorted check and insertSort on sub-arrays
+before StdMergeSort isSorted = false [182260, 850259, 193640, 199722, 709541]
+after StdMergeSort isSorted = true [1, 2, 2, 2, 2]
+before StdMergeSort isSorted = false [803757, 390729, 584072, 119546, 669601]
+after StdMergeSort isSorted = true [2, 2, 2, 2, 3]
+before StdMergeSort isSorted = false [197950, 67851, 392111, 780951, 118078]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 2]
+before StdMergeSort isSorted = false [345136, 990636, 174544, 173079, 926134]
+after StdMergeSort isSorted = true [1, 1, 2, 2, 3]
+before StdMergeSort isSorted = false [235353, 460061, 787523, 707302, 74570]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 2]
+before StdMergeSort isSorted = false [739566, 418059, 327118, 396534, 649468]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 2]
+before StdMergeSort isSorted = false [529902, 914353, 16535, 439496, 862668]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [591250, 292931, 983434, 15304, 144283]
+after StdMergeSort isSorted = true [1, 1, 2, 2, 2]
+before StdMergeSort isSorted = false [213172, 410937, 945099, 881726, 723959]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 2]
+before StdMergeSort isSorted = false [136369, 868060, 87133, 620262, 538591]
+after StdMergeSort isSorted = true [2, 2, 2, 3, 3]
+Average standard merge sort time = 415 ms
+before quickSort isSorted = false [182260, 850259, 193640, 199722, 709541]
+after quickSort isSorted = false [1, 2, 2, 2, 2]
+false
+before quickSort isSorted = false [803757, 390729, 584072, 119546, 669601]
+after quickSort isSorted = false [2, 2, 2, 2, 3]
+false
+before quickSort isSorted = false [197950, 67851, 392111, 780951, 118078]
+after quickSort isSorted = false [1, 1, 1, 1, 2]
+false
+before quickSort isSorted = false [345136, 990636, 174544, 173079, 926134]
+after quickSort isSorted = false [1, 1, 2, 2, 3]
+false
+before quickSort isSorted = false [235353, 460061, 787523, 707302, 74570]
+after quickSort isSorted = false [1, 1, 1, 1, 2]
+false
+before quickSort isSorted = false [739566, 418059, 327118, 396534, 649468]
+after quickSort isSorted = false [1, 1, 1, 1, 2]
+false
+before quickSort isSorted = false [529902, 914353, 16535, 439496, 862668]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [591250, 292931, 983434, 15304, 144283]
+after quickSort isSorted = false [1, 1, 2, 2, 2]
+false
+before quickSort isSorted = false [213172, 410937, 945099, 881726, 723959]
+after quickSort isSorted = false [1, 1, 1, 1, 2]
+false
+before quickSort isSorted = false [136369, 868060, 87133, 620262, 538591]
+after quickSort isSorted = false [2, 2, 2, 3, 3]
+false
+Average quick sort time = 312 ms
+
+
+Running problem 3...
+
+Generating 10 sets of 1000000 ints from 1 - 1000
+Using median pivot best-case quick sort: before quickSort isSorted = false [985, 335, 606, 606, 846]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [988, 397, 713, 504, 938]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [55, 387, 101, 255, 184]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [146, 487, 609, 258, 103]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [300, 995, 215, 529, 776]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [910, 158, 396, 148, 2]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [624, 208, 771, 339, 486]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [497, 785, 170, 982, 468]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [481, 849, 209, 38, 27]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [290, 872, 954, 825, 300]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+Average quick sort time = 43 ms
+before builtinSort isSorted = false [985, 335, 606, 606, 846]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [988, 397, 713, 504, 938]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [55, 387, 101, 255, 184]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [146, 487, 609, 258, 103]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [300, 995, 215, 529, 776]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [910, 158, 396, 148, 2]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [624, 208, 771, 339, 486]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [497, 785, 170, 982, 468]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [481, 849, 209, 38, 27]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [290, 872, 954, 825, 300]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+Average built-in sort time = 45 ms
+before heapsorts isSorted = false [985, 335, 606, 606, 846]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [988, 397, 713, 504, 938]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [55, 387, 101, 255, 184]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [146, 487, 609, 258, 103]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [300, 995, 215, 529, 776]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [910, 158, 396, 148, 2]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [624, 208, 771, 339, 486]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [497, 785, 170, 982, 468]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [481, 849, 209, 38, 27]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [290, 872, 954, 825, 300]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+Average heap sort time = 133 ms
+before StdMergeSort isSorted = false [985, 335, 606, 606, 846]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [988, 397, 713, 504, 938]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [55, 387, 101, 255, 184]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [146, 487, 609, 258, 103]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [300, 995, 215, 529, 776]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [910, 158, 396, 148, 2]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [624, 208, 771, 339, 486]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [497, 785, 170, 982, 468]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [481, 849, 209, 38, 27]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [290, 872, 954, 825, 300]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+Average standard merge sort time = 70 ms
+Using middle pivot best-case quick sort: before quickSort isSorted = false [985, 335, 606, 606, 846]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [988, 397, 713, 504, 938]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [55, 387, 101, 255, 184]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [146, 487, 609, 258, 103]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [300, 995, 215, 529, 776]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [910, 158, 396, 148, 2]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [624, 208, 771, 339, 486]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [497, 785, 170, 982, 468]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [481, 849, 209, 38, 27]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [290, 872, 954, 825, 300]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+Average quick sort time = 43 ms
+
+Generating 10 sets of 2000000 ints from 1 - 1000
+Using median pivot best-case quick sort: before quickSort isSorted = false [466, 519, 139, 569, 254]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [537, 849, 366, 44, 632]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [254, 744, 213, 193, 640]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [66, 747, 837, 341, 127]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [484, 579, 905, 162, 476]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [447, 558, 304, 256, 553]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [344, 734, 486, 683, 532]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [193, 485, 675, 203, 695]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [876, 563, 54, 226, 192]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [20, 897, 807, 256, 990]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+Average quick sort time = 85 ms
+before builtinSort isSorted = false [466, 519, 139, 569, 254]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [537, 849, 366, 44, 632]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [254, 744, 213, 193, 640]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [66, 747, 837, 341, 127]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [484, 579, 905, 162, 476]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [447, 558, 304, 256, 553]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [344, 734, 486, 683, 532]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [193, 485, 675, 203, 695]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [876, 563, 54, 226, 192]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [20, 897, 807, 256, 990]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+Average built-in sort time = 84 ms
+before heapsorts isSorted = false [466, 519, 139, 569, 254]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [537, 849, 366, 44, 632]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [254, 744, 213, 193, 640]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [66, 747, 837, 341, 127]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [484, 579, 905, 162, 476]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [447, 558, 304, 256, 553]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [344, 734, 486, 683, 532]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [193, 485, 675, 203, 695]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [876, 563, 54, 226, 192]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [20, 897, 807, 256, 990]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+Average heap sort time = 296 ms
+before StdMergeSort isSorted = false [466, 519, 139, 569, 254]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [537, 849, 366, 44, 632]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [254, 744, 213, 193, 640]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [66, 747, 837, 341, 127]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [484, 579, 905, 162, 476]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [447, 558, 304, 256, 553]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [344, 734, 486, 683, 532]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [193, 485, 675, 203, 695]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [876, 563, 54, 226, 192]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [20, 897, 807, 256, 990]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+Average standard merge sort time = 156 ms
+Using middle pivot best-case quick sort: before quickSort isSorted = false [466, 519, 139, 569, 254]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [537, 849, 366, 44, 632]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [254, 744, 213, 193, 640]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [66, 747, 837, 341, 127]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [484, 579, 905, 162, 476]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [447, 558, 304, 256, 553]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [344, 734, 486, 683, 532]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [193, 485, 675, 203, 695]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [876, 563, 54, 226, 192]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [20, 897, 807, 256, 990]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+Average quick sort time = 88 ms
+
+Generating 10 sets of 4000000 ints from 1 - 1000
+Using median pivot best-case quick sort: before quickSort isSorted = false [453, 307, 512, 717, 647]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [632, 836, 607, 598, 25]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [882, 605, 538, 831, 234]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [942, 304, 15, 410, 221]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [764, 732, 469, 223, 353]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [302, 822, 312, 282, 260]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [120, 72, 89, 960, 353]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [853, 555, 340, 608, 425]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [464, 32, 675, 74, 621]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [359, 151, 559, 550, 729]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+Average quick sort time = 167 ms
+before builtinSort isSorted = false [453, 307, 512, 717, 647]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [632, 836, 607, 598, 25]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [882, 605, 538, 831, 234]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [942, 304, 15, 410, 221]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [764, 732, 469, 223, 353]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [302, 822, 312, 282, 260]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [120, 72, 89, 960, 353]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [853, 555, 340, 608, 425]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [464, 32, 675, 74, 621]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [359, 151, 559, 550, 729]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+Average built-in sort time = 165 ms
+before heapsorts isSorted = false [453, 307, 512, 717, 647]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [632, 836, 607, 598, 25]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [882, 605, 538, 831, 234]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [942, 304, 15, 410, 221]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [764, 732, 469, 223, 353]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [302, 822, 312, 282, 260]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [120, 72, 89, 960, 353]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [853, 555, 340, 608, 425]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [464, 32, 675, 74, 621]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [359, 151, 559, 550, 729]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+Average heap sort time = 660 ms
+before StdMergeSort isSorted = false [453, 307, 512, 717, 647]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [632, 836, 607, 598, 25]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [882, 605, 538, 831, 234]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [942, 304, 15, 410, 221]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [764, 732, 469, 223, 353]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [302, 822, 312, 282, 260]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [120, 72, 89, 960, 353]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [853, 555, 340, 608, 425]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [464, 32, 675, 74, 621]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [359, 151, 559, 550, 729]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+Average standard merge sort time = 310 ms
+Using middle pivot best-case quick sort: before quickSort isSorted = false [453, 307, 512, 717, 647]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [632, 836, 607, 598, 25]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [882, 605, 538, 831, 234]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [942, 304, 15, 410, 221]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [764, 732, 469, 223, 353]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [302, 822, 312, 282, 260]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [120, 72, 89, 960, 353]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [853, 555, 340, 608, 425]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [464, 32, 675, 74, 621]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [359, 151, 559, 550, 729]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+Average quick sort time = 169 ms
+
+Generating 10 sets of 1000000 ints from 1 - 1000000
+Using median pivot best-case quick sort: before quickSort isSorted = false [751288, 148318, 152155, 727783, 787678]
+after quickSort isSorted = false [3, 3, 2, 6, 13]
+false
+before quickSort isSorted = false [465958, 323160, 142844, 160498, 634647]
+after quickSort isSorted = false [2, 1, 3, 5, 6]
+false
+before quickSort isSorted = false [252257, 277609, 836859, 992244, 401300]
+after quickSort isSorted = false [4, 1, 5, 6, 7]
+false
+before quickSort isSorted = false [195442, 17553, 752347, 494941, 455502]
+after quickSort isSorted = false [1, 1, 1, 5, 2]
+false
+before quickSort isSorted = false [522132, 995541, 702859, 776442, 540592]
+after quickSort isSorted = false [2, 2, 2, 4, 5]
+false
+before quickSort isSorted = false [500861, 605329, 649816, 639349, 122155]
+after quickSort isSorted = false [1, 3, 6, 4, 6]
+false
+before quickSort isSorted = false [386592, 484385, 50838, 76906, 21191]
+after quickSort isSorted = false [5, 3, 7, 9, 9]
+false
+before quickSort isSorted = false [400497, 971912, 83479, 925551, 344258]
+after quickSort isSorted = false [1, 2, 6, 6, 6]
+false
+before quickSort isSorted = false [107070, 341224, 147679, 191056, 332071]
+after quickSort isSorted = false [2, 2, 2, 3, 4]
+false
+before quickSort isSorted = false [87148, 9842, 911307, 651676, 608666]
+after quickSort isSorted = false [3, 3, 3, 1, 3]
+false
+Average quick sort time = 90 ms
+before builtinSort isSorted = false [751288, 148318, 152155, 727783, 787678]
+after builtinSort isSorted = true [2, 3, 3, 6, 13]
+before builtinSort isSorted = false [465958, 323160, 142844, 160498, 634647]
+after builtinSort isSorted = true [1, 2, 3, 5, 6]
+before builtinSort isSorted = false [252257, 277609, 836859, 992244, 401300]
+after builtinSort isSorted = true [1, 4, 5, 6, 7]
+before builtinSort isSorted = false [195442, 17553, 752347, 494941, 455502]
+after builtinSort isSorted = true [1, 1, 1, 2, 5]
+before builtinSort isSorted = false [522132, 995541, 702859, 776442, 540592]
+after builtinSort isSorted = true [2, 2, 2, 4, 5]
+before builtinSort isSorted = false [500861, 605329, 649816, 639349, 122155]
+after builtinSort isSorted = true [1, 3, 4, 6, 6]
+before builtinSort isSorted = false [386592, 484385, 50838, 76906, 21191]
+after builtinSort isSorted = true [3, 5, 7, 9, 9]
+before builtinSort isSorted = false [400497, 971912, 83479, 925551, 344258]
+after builtinSort isSorted = true [1, 2, 6, 6, 6]
+before builtinSort isSorted = false [107070, 341224, 147679, 191056, 332071]
+after builtinSort isSorted = true [2, 2, 2, 3, 4]
+before builtinSort isSorted = false [87148, 9842, 911307, 651676, 608666]
+after builtinSort isSorted = true [1, 3, 3, 3, 3]
+Average built-in sort time = 81 ms
+before heapsorts isSorted = false [751288, 148318, 152155, 727783, 787678]
+after heapsorts isSorted = true [2, 3, 3, 6, 13]
+before heapsorts isSorted = false [465958, 323160, 142844, 160498, 634647]
+after heapsorts isSorted = true [1, 2, 3, 5, 6]
+before heapsorts isSorted = false [252257, 277609, 836859, 992244, 401300]
+after heapsorts isSorted = true [1, 4, 5, 6, 7]
+before heapsorts isSorted = false [195442, 17553, 752347, 494941, 455502]
+after heapsorts isSorted = true [1, 1, 1, 2, 5]
+before heapsorts isSorted = false [522132, 995541, 702859, 776442, 540592]
+after heapsorts isSorted = true [2, 2, 2, 4, 5]
+before heapsorts isSorted = false [500861, 605329, 649816, 639349, 122155]
+after heapsorts isSorted = true [1, 3, 4, 6, 6]
+before heapsorts isSorted = false [386592, 484385, 50838, 76906, 21191]
+after heapsorts isSorted = true [3, 5, 7, 9, 9]
+before heapsorts isSorted = false [400497, 971912, 83479, 925551, 344258]
+after heapsorts isSorted = true [1, 2, 6, 6, 6]
+before heapsorts isSorted = false [107070, 341224, 147679, 191056, 332071]
+after heapsorts isSorted = true [2, 2, 2, 3, 4]
+before heapsorts isSorted = false [87148, 9842, 911307, 651676, 608666]
+after heapsorts isSorted = true [1, 3, 3, 3, 3]
+Average heap sort time = 163 ms
+before StdMergeSort isSorted = false [751288, 148318, 152155, 727783, 787678]
+after StdMergeSort isSorted = true [2, 3, 3, 6, 13]
+before StdMergeSort isSorted = false [465958, 323160, 142844, 160498, 634647]
+after StdMergeSort isSorted = true [1, 2, 3, 5, 6]
+before StdMergeSort isSorted = false [252257, 277609, 836859, 992244, 401300]
+after StdMergeSort isSorted = true [1, 4, 5, 6, 7]
+before StdMergeSort isSorted = false [195442, 17553, 752347, 494941, 455502]
+after StdMergeSort isSorted = true [1, 1, 1, 2, 5]
+before StdMergeSort isSorted = false [522132, 995541, 702859, 776442, 540592]
+after StdMergeSort isSorted = true [2, 2, 2, 4, 5]
+before StdMergeSort isSorted = false [500861, 605329, 649816, 639349, 122155]
+after StdMergeSort isSorted = true [1, 3, 4, 6, 6]
+before StdMergeSort isSorted = false [386592, 484385, 50838, 76906, 21191]
+after StdMergeSort isSorted = true [3, 5, 7, 9, 9]
+before StdMergeSort isSorted = false [400497, 971912, 83479, 925551, 344258]
+after StdMergeSort isSorted = true [1, 2, 6, 6, 6]
+before StdMergeSort isSorted = false [107070, 341224, 147679, 191056, 332071]
+after StdMergeSort isSorted = true [2, 2, 2, 3, 4]
+before StdMergeSort isSorted = false [87148, 9842, 911307, 651676, 608666]
+after StdMergeSort isSorted = true [1, 3, 3, 3, 3]
+Average standard merge sort time = 95 ms
+Using middle pivot best-case quick sort: before quickSort isSorted = false [751288, 148318, 152155, 727783, 787678]
+after quickSort isSorted = false [3, 3, 2, 13, 13]
+false
+before quickSort isSorted = false [465958, 323160, 142844, 160498, 634647]
+after quickSort isSorted = false [1, 2, 3, 5, 6]
+false
+before quickSort isSorted = false [252257, 277609, 836859, 992244, 401300]
+after quickSort isSorted = false [1, 5, 6, 4, 7]
+false
+before quickSort isSorted = false [195442, 17553, 752347, 494941, 455502]
+after quickSort isSorted = false [1, 1, 1, 2, 5]
+false
+before quickSort isSorted = false [522132, 995541, 702859, 776442, 540592]
+after quickSort isSorted = false [2, 2, 4, 2, 5]
+false
+before quickSort isSorted = false [500861, 605329, 649816, 639349, 122155]
+after quickSort isSorted = false [1, 3, 4, 6, 6]
+false
+before quickSort isSorted = false [386592, 484385, 50838, 76906, 21191]
+after quickSort isSorted = false [3, 5, 7, 9, 9]
+false
+before quickSort isSorted = false [400497, 971912, 83479, 925551, 344258]
+after quickSort isSorted = false [1, 2, 6, 6, 6]
+false
+before quickSort isSorted = false [107070, 341224, 147679, 191056, 332071]
+after quickSort isSorted = false [2, 2, 2, 3, 4]
+false
+before quickSort isSorted = false [87148, 9842, 911307, 651676, 608666]
+after quickSort isSorted = false [3, 3, 3, 3, 3]
+false
+Average quick sort time = 87 ms
+
+Generating 10 sets of 2000000 ints from 1 - 1000000
+Using median pivot best-case quick sort: before quickSort isSorted = false [800644, 510329, 66565, 429224, 257650]
+after quickSort isSorted = false [1, 1, 1, 1, 2]
+false
+before quickSort isSorted = false [906452, 836321, 352519, 829664, 519053]
+after quickSort isSorted = false [2, 2, 2, 3, 4]
+false
+before quickSort isSorted = false [692074, 114788, 780119, 15684, 468313]
+after quickSort isSorted = false [1, 2, 2, 2, 4]
+false
+before quickSort isSorted = false [992989, 624976, 580490, 741896, 60419]
+after quickSort isSorted = false [1, 1, 2, 2, 2]
+false
+before quickSort isSorted = false [174724, 805578, 588873, 696624, 119289]
+after quickSort isSorted = false [1, 3, 4, 4, 4]
+false
+before quickSort isSorted = false [579078, 604095, 436996, 584712, 859114]
+after quickSort isSorted = false [1, 2, 2, 2, 2]
+false
+before quickSort isSorted = false [351743, 633800, 139659, 551181, 247187]
+after quickSort isSorted = false [1, 1, 1, 3, 3]
+false
+before quickSort isSorted = false [187256, 411285, 638819, 319462, 202032]
+after quickSort isSorted = false [1, 1, 1, 2, 3]
+false
+before quickSort isSorted = false [446925, 629317, 387477, 490957, 885004]
+after quickSort isSorted = false [1, 1, 1, 2, 2]
+false
+before quickSort isSorted = false [487947, 261904, 983985, 283826, 742576]
+after quickSort isSorted = false [1, 1, 1, 1, 3]
+false
+Average quick sort time = 182 ms
+before builtinSort isSorted = false [800644, 510329, 66565, 429224, 257650]
+after builtinSort isSorted = true [1, 1, 1, 1, 2]
+before builtinSort isSorted = false [906452, 836321, 352519, 829664, 519053]
+after builtinSort isSorted = true [2, 2, 2, 3, 4]
+before builtinSort isSorted = false [692074, 114788, 780119, 15684, 468313]
+after builtinSort isSorted = true [1, 2, 2, 2, 3]
+before builtinSort isSorted = false [992989, 624976, 580490, 741896, 60419]
+after builtinSort isSorted = true [1, 1, 2, 2, 2]
+before builtinSort isSorted = false [174724, 805578, 588873, 696624, 119289]
+after builtinSort isSorted = true [1, 3, 4, 4, 4]
+before builtinSort isSorted = false [579078, 604095, 436996, 584712, 859114]
+after builtinSort isSorted = true [1, 2, 2, 2, 2]
+before builtinSort isSorted = false [351743, 633800, 139659, 551181, 247187]
+after builtinSort isSorted = true [1, 1, 1, 1, 3]
+before builtinSort isSorted = false [187256, 411285, 638819, 319462, 202032]
+after builtinSort isSorted = true [1, 1, 1, 2, 3]
+before builtinSort isSorted = false [446925, 629317, 387477, 490957, 885004]
+after builtinSort isSorted = true [1, 1, 1, 2, 2]
+before builtinSort isSorted = false [487947, 261904, 983985, 283826, 742576]
+after builtinSort isSorted = true [1, 1, 1, 1, 3]
+Average built-in sort time = 158 ms
+before heapsorts isSorted = false [800644, 510329, 66565, 429224, 257650]
+after heapsorts isSorted = true [1, 1, 1, 1, 2]
+before heapsorts isSorted = false [906452, 836321, 352519, 829664, 519053]
+after heapsorts isSorted = true [2, 2, 2, 3, 4]
+before heapsorts isSorted = false [692074, 114788, 780119, 15684, 468313]
+after heapsorts isSorted = true [1, 2, 2, 2, 3]
+before heapsorts isSorted = false [992989, 624976, 580490, 741896, 60419]
+after heapsorts isSorted = true [1, 1, 2, 2, 2]
+before heapsorts isSorted = false [174724, 805578, 588873, 696624, 119289]
+after heapsorts isSorted = true [1, 3, 4, 4, 4]
+before heapsorts isSorted = false [579078, 604095, 436996, 584712, 859114]
+after heapsorts isSorted = true [1, 2, 2, 2, 2]
+before heapsorts isSorted = false [351743, 633800, 139659, 551181, 247187]
+after heapsorts isSorted = true [1, 1, 1, 1, 3]
+before heapsorts isSorted = false [187256, 411285, 638819, 319462, 202032]
+after heapsorts isSorted = true [1, 1, 1, 2, 3]
+before heapsorts isSorted = false [446925, 629317, 387477, 490957, 885004]
+after heapsorts isSorted = true [1, 1, 1, 2, 2]
+before heapsorts isSorted = false [487947, 261904, 983985, 283826, 742576]
+after heapsorts isSorted = true [1, 1, 1, 1, 3]
+Average heap sort time = 366 ms
+before StdMergeSort isSorted = false [800644, 510329, 66565, 429224, 257650]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 2]
+before StdMergeSort isSorted = false [906452, 836321, 352519, 829664, 519053]
+after StdMergeSort isSorted = true [2, 2, 2, 3, 4]
+before StdMergeSort isSorted = false [692074, 114788, 780119, 15684, 468313]
+after StdMergeSort isSorted = true [1, 2, 2, 2, 3]
+before StdMergeSort isSorted = false [992989, 624976, 580490, 741896, 60419]
+after StdMergeSort isSorted = true [1, 1, 2, 2, 2]
+before StdMergeSort isSorted = false [174724, 805578, 588873, 696624, 119289]
+after StdMergeSort isSorted = true [1, 3, 4, 4, 4]
+before StdMergeSort isSorted = false [579078, 604095, 436996, 584712, 859114]
+after StdMergeSort isSorted = true [1, 2, 2, 2, 2]
+before StdMergeSort isSorted = false [351743, 633800, 139659, 551181, 247187]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 3]
+before StdMergeSort isSorted = false [187256, 411285, 638819, 319462, 202032]
+after StdMergeSort isSorted = true [1, 1, 1, 2, 3]
+before StdMergeSort isSorted = false [446925, 629317, 387477, 490957, 885004]
+after StdMergeSort isSorted = true [1, 1, 1, 2, 2]
+before StdMergeSort isSorted = false [487947, 261904, 983985, 283826, 742576]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 3]
+Average standard merge sort time = 200 ms
+Using middle pivot best-case quick sort: before quickSort isSorted = false [800644, 510329, 66565, 429224, 257650]
+after quickSort isSorted = false [1, 1, 1, 2, 1]
+false
+before quickSort isSorted = false [906452, 836321, 352519, 829664, 519053]
+after quickSort isSorted = false [2, 2, 2, 3, 4]
+false
+before quickSort isSorted = false [692074, 114788, 780119, 15684, 468313]
+after quickSort isSorted = false [1, 2, 2, 2, 4]
+false
+before quickSort isSorted = false [992989, 624976, 580490, 741896, 60419]
+after quickSort isSorted = false [1, 1, 2, 2, 2]
+false
+before quickSort isSorted = false [174724, 805578, 588873, 696624, 119289]
+after quickSort isSorted = false [3, 1, 4, 4, 4]
+false
+before quickSort isSorted = false [579078, 604095, 436996, 584712, 859114]
+after quickSort isSorted = false [1, 2, 2, 2, 2]
+false
+before quickSort isSorted = false [351743, 633800, 139659, 551181, 247187]
+after quickSort isSorted = false [1, 1, 1, 1, 3]
+false
+before quickSort isSorted = false [187256, 411285, 638819, 319462, 202032]
+after quickSort isSorted = false [1, 1, 1, 2, 3]
+false
+before quickSort isSorted = false [446925, 629317, 387477, 490957, 885004]
+after quickSort isSorted = false [1, 1, 1, 2, 2]
+false
+before quickSort isSorted = false [487947, 261904, 983985, 283826, 742576]
+after quickSort isSorted = false [1, 1, 1, 1, 3]
+false
+Average quick sort time = 174 ms
+
+Generating 10 sets of 4000000 ints from 1 - 1000000
+Using median pivot best-case quick sort: before quickSort isSorted = false [245619, 696644, 24527, 900696, 229591]
+after quickSort isSorted = false [1, 1, 1, 2, 2]
+false
+before quickSort isSorted = false [551123, 266521, 326003, 926622, 833745]
+after quickSort isSorted = false [1, 1, 1, 2, 2]
+false
+before quickSort isSorted = false [386678, 127300, 847194, 867593, 150619]
+after quickSort isSorted = false [1, 1, 2, 2, 2]
+false
+before quickSort isSorted = false [880462, 967788, 203119, 856140, 627517]
+after quickSort isSorted = false [1, 1, 2, 2, 3]
+false
+before quickSort isSorted = false [96517, 324769, 312621, 972461, 961165]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [804767, 921587, 787645, 259809, 747256]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [49972, 305603, 109948, 853794, 182317]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [313514, 496212, 914677, 643372, 760053]
+after quickSort isSorted = false [1, 1, 1, 2, 1]
+false
+before quickSort isSorted = false [242806, 309553, 772595, 104866, 100131]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [588147, 311540, 311766, 763139, 280119]
+after quickSort isSorted = false [1, 2, 2, 1, 2]
+false
+Average quick sort time = 365 ms
+before builtinSort isSorted = false [245619, 696644, 24527, 900696, 229591]
+after builtinSort isSorted = true [1, 1, 1, 2, 2]
+before builtinSort isSorted = false [551123, 266521, 326003, 926622, 833745]
+after builtinSort isSorted = true [1, 1, 1, 2, 2]
+before builtinSort isSorted = false [386678, 127300, 847194, 867593, 150619]
+after builtinSort isSorted = true [1, 1, 2, 2, 2]
+before builtinSort isSorted = false [880462, 967788, 203119, 856140, 627517]
+after builtinSort isSorted = true [1, 1, 2, 2, 3]
+before builtinSort isSorted = false [96517, 324769, 312621, 972461, 961165]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [804767, 921587, 787645, 259809, 747256]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [49972, 305603, 109948, 853794, 182317]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [313514, 496212, 914677, 643372, 760053]
+after builtinSort isSorted = true [1, 1, 1, 1, 2]
+before builtinSort isSorted = false [242806, 309553, 772595, 104866, 100131]
+after builtinSort isSorted = true [1, 1, 1, 1, 1]
+before builtinSort isSorted = false [588147, 311540, 311766, 763139, 280119]
+after builtinSort isSorted = true [1, 1, 2, 2, 2]
+Average built-in sort time = 329 ms
+before heapsorts isSorted = false [245619, 696644, 24527, 900696, 229591]
+after heapsorts isSorted = true [1, 1, 1, 2, 2]
+before heapsorts isSorted = false [551123, 266521, 326003, 926622, 833745]
+after heapsorts isSorted = true [1, 1, 1, 2, 2]
+before heapsorts isSorted = false [386678, 127300, 847194, 867593, 150619]
+after heapsorts isSorted = true [1, 1, 2, 2, 2]
+before heapsorts isSorted = false [880462, 967788, 203119, 856140, 627517]
+after heapsorts isSorted = true [1, 1, 2, 2, 3]
+before heapsorts isSorted = false [96517, 324769, 312621, 972461, 961165]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [804767, 921587, 787645, 259809, 747256]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [49972, 305603, 109948, 853794, 182317]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [313514, 496212, 914677, 643372, 760053]
+after heapsorts isSorted = true [1, 1, 1, 1, 2]
+before heapsorts isSorted = false [242806, 309553, 772595, 104866, 100131]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [588147, 311540, 311766, 763139, 280119]
+after heapsorts isSorted = true [1, 1, 2, 2, 2]
+Average heap sort time = 904 ms
+before StdMergeSort isSorted = false [245619, 696644, 24527, 900696, 229591]
+after StdMergeSort isSorted = true [1, 1, 1, 2, 2]
+before StdMergeSort isSorted = false [551123, 266521, 326003, 926622, 833745]
+after StdMergeSort isSorted = true [1, 1, 1, 2, 2]
+before StdMergeSort isSorted = false [386678, 127300, 847194, 867593, 150619]
+after StdMergeSort isSorted = true [1, 1, 2, 2, 2]
+before StdMergeSort isSorted = false [880462, 967788, 203119, 856140, 627517]
+after StdMergeSort isSorted = true [1, 1, 2, 2, 3]
+before StdMergeSort isSorted = false [96517, 324769, 312621, 972461, 961165]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [804767, 921587, 787645, 259809, 747256]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [49972, 305603, 109948, 853794, 182317]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [313514, 496212, 914677, 643372, 760053]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 2]
+before StdMergeSort isSorted = false [242806, 309553, 772595, 104866, 100131]
+after StdMergeSort isSorted = true [1, 1, 1, 1, 1]
+before StdMergeSort isSorted = false [588147, 311540, 311766, 763139, 280119]
+after StdMergeSort isSorted = true [1, 1, 2, 2, 2]
+Average standard merge sort time = 417 ms
+Using middle pivot best-case quick sort: before quickSort isSorted = false [245619, 696644, 24527, 900696, 229591]
+after quickSort isSorted = false [1, 1, 1, 2, 2]
+false
+before quickSort isSorted = false [551123, 266521, 326003, 926622, 833745]
+after quickSort isSorted = false [1, 1, 2, 1, 2]
+false
+before quickSort isSorted = false [386678, 127300, 847194, 867593, 150619]
+after quickSort isSorted = false [1, 1, 2, 2, 2]
+false
+before quickSort isSorted = false [880462, 967788, 203119, 856140, 627517]
+after quickSort isSorted = false [1, 2, 1, 2, 3]
+false
+before quickSort isSorted = false [96517, 324769, 312621, 972461, 961165]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [804767, 921587, 787645, 259809, 747256]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [49972, 305603, 109948, 853794, 182317]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [313514, 496212, 914677, 643372, 760053]
+after quickSort isSorted = false [1, 1, 1, 1, 2]
+false
+before quickSort isSorted = false [242806, 309553, 772595, 104866, 100131]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [588147, 311540, 311766, 763139, 280119]
+after quickSort isSorted = false [1, 1, 2, 2, 2]
+false
+Average quick sort time = 355 ms
+
+
+Running problem 4...
+
+Generating 10 sets of nearly-sorted arrays with 2000000 ints from 1 - 10000
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = false [1, 1, 1, 1, 1]
+false
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+Average quick sort time = 10 ms
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+Average insertion sort time = 188 ms
+Generating 10 sets of nearly-sorted arrays with 2000000 ints from 1 - 100000
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [1, 1, 1, 1, 1]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+Average quick sort time = 9 ms
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+before insertionSort isSorted = false [1, 1, 1, 1, 1]
+after insertionSort isSorted = true [1, 1, 1, 1, 1]
+Average insertion sort time = 87 ms
+Generating 10 sets of nearly-sorted arrays with 2000000 ints from 1 - 1000000
+before quickSort isSorted = false [1, 1, 1, 1, 2]
+after quickSort isSorted = true [1, 1, 1, 1, 2]
+true
+before quickSort isSorted = false [1, 2, 2, 4, 4]
+after quickSort isSorted = true [1, 2, 2, 4, 4]
+true
+before quickSort isSorted = false [1, 3, 3, 3, 3]
+after quickSort isSorted = true [1, 3, 3, 3, 3]
+true
+before quickSort isSorted = false [1, 3, 4, 4, 5]
+after quickSort isSorted = true [1, 3, 4, 4, 5]
+true
+before quickSort isSorted = false [3, 3, 3, 3, 3]
+after quickSort isSorted = true [3, 3, 3, 3, 3]
+true
+before quickSort isSorted = false [1, 1, 2, 2, 2]
+after quickSort isSorted = true [1, 1, 2, 2, 2]
+true
+before quickSort isSorted = false [1, 1, 1, 2, 2]
+after quickSort isSorted = true [1, 1, 1, 2, 2]
+true
+before quickSort isSorted = false [1, 1, 1, 2, 4]
+after quickSort isSorted = true [1, 1, 1, 2, 4]
+true
+before quickSort isSorted = false [1, 1, 1, 1, 2]
+after quickSort isSorted = true [1, 1, 1, 1, 2]
+true
+before quickSort isSorted = false [1, 1, 2, 2, 3]
+after quickSort isSorted = true [1, 1, 2, 2, 3]
+true
+Average quick sort time = 9 ms
+before insertionSort isSorted = false [1, 1, 1, 1, 2]
+after insertionSort isSorted = true [1, 1, 1, 1, 2]
+before insertionSort isSorted = false [1, 2, 2, 4, 4]
+after insertionSort isSorted = true [1, 2, 2, 4, 4]
+before insertionSort isSorted = false [1, 3, 3, 3, 3]
+after insertionSort isSorted = true [1, 3, 3, 3, 3]
+before insertionSort isSorted = false [1, 3, 4, 4, 5]
+after insertionSort isSorted = true [1, 3, 4, 4, 5]
+before insertionSort isSorted = false [3, 3, 3, 3, 3]
+after insertionSort isSorted = true [3, 3, 3, 3, 3]
+before insertionSort isSorted = false [1, 1, 2, 2, 2]
+after insertionSort isSorted = true [1, 1, 2, 2, 2]
+before insertionSort isSorted = false [1, 1, 1, 2, 2]
+after insertionSort isSorted = true [1, 1, 1, 2, 2]
+before insertionSort isSorted = false [1, 1, 1, 2, 4]
+after insertionSort isSorted = true [1, 1, 1, 2, 4]
+before insertionSort isSorted = false [1, 1, 1, 1, 2]
+after insertionSort isSorted = true [1, 1, 1, 1, 2]
+before insertionSort isSorted = false [1, 1, 2, 2, 3]
+after insertionSort isSorted = true [1, 1, 2, 2, 3]
+Average insertion sort time = 82 ms
+
+Running problem 5...
+
+Generating 10 sets of reversed sorted arrays with 2000000 ints from 1 - 10000
+before quickSort isSorted = false [10000, 10000, 10000, 10000, 10000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [10000, 10000, 10000, 10000, 10000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [10000, 10000, 10000, 10000, 10000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [10000, 10000, 10000, 10000, 10000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [10000, 10000, 10000, 10000, 10000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [10000, 10000, 10000, 10000, 10000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [10000, 10000, 10000, 10000, 10000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [10000, 10000, 10000, 10000, 10000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [10000, 10000, 10000, 10000, 10000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [10000, 10000, 10000, 10000, 10000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+Average quick sort time = 41 ms
+before heapsorts isSorted = false [10000, 10000, 10000, 10000, 10000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [10000, 10000, 10000, 10000, 10000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [10000, 10000, 10000, 10000, 10000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [10000, 10000, 10000, 10000, 10000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [10000, 10000, 10000, 10000, 10000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [10000, 10000, 10000, 10000, 10000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [10000, 10000, 10000, 10000, 10000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [10000, 10000, 10000, 10000, 10000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [10000, 10000, 10000, 10000, 10000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [10000, 10000, 10000, 10000, 10000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+Average heap sort time = 186 ms
+Generating 10 sets of reversed sorted arrays with 2000000 ints from 1 - 100000
+before quickSort isSorted = false [100000, 100000, 100000, 100000, 100000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [100000, 100000, 100000, 100000, 100000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [100000, 100000, 100000, 100000, 100000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [100000, 100000, 100000, 100000, 100000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [100000, 100000, 100000, 100000, 100000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [100000, 100000, 100000, 100000, 100000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [100000, 100000, 100000, 100000, 100000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [100000, 100000, 100000, 100000, 100000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [100000, 100000, 100000, 100000, 100000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+before quickSort isSorted = false [100000, 100000, 100000, 100000, 100000]
+after quickSort isSorted = true [1, 1, 1, 1, 1]
+true
+Average quick sort time = 43 ms
+before heapsorts isSorted = false [100000, 100000, 100000, 100000, 100000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [100000, 100000, 100000, 100000, 100000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [100000, 100000, 100000, 100000, 100000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [100000, 100000, 100000, 100000, 100000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [100000, 100000, 100000, 100000, 100000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [100000, 100000, 100000, 100000, 100000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [100000, 100000, 100000, 100000, 100000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [100000, 100000, 100000, 100000, 100000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [100000, 100000, 100000, 100000, 100000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+before heapsorts isSorted = false [100000, 100000, 100000, 100000, 100000]
+after heapsorts isSorted = true [1, 1, 1, 1, 1]
+Average heap sort time = 189 ms
+Generating 10 sets of reversed sorted arrays with 2000000 ints from 1 - 1000000
+before quickSort isSorted = false [1000000, 1000000, 1000000, 999999, 999999]
+after quickSort isSorted = true [1, 1, 2, 2, 3]
+true
+before quickSort isSorted = false [1000000, 1000000, 999999, 999998, 999998]
+after quickSort isSorted = true [1, 2, 3, 4, 5]
+true
+before quickSort isSorted = false [1000000, 1000000, 1000000, 999999, 999999]
+after quickSort isSorted = true [1, 2, 3, 4, 5]
+true
+before quickSort isSorted = false [1000000, 1000000, 1000000, 999998, 999998]
+after quickSort isSorted = true [1, 1, 2, 2, 2]
+true
+before quickSort isSorted = false [1000000, 999999, 999998, 999998, 999998]
+after quickSort isSorted = true [1, 1, 1, 2, 2]
+true
+before quickSort isSorted = false [1000000, 1000000, 1000000, 999999, 999999]
+after quickSort isSorted = true [2, 2, 3, 5, 5]
+true
+before quickSort isSorted = false [1000000, 1000000, 999998, 999997, 999997]
+after quickSort isSorted = true [1, 1, 1, 2, 3]
+true
+before quickSort isSorted = false [1000000, 1000000, 1000000, 1000000, 999999]
+after quickSort isSorted = true [1, 1, 3, 3, 3]
+true
+before quickSort isSorted = false [1000000, 1000000, 999999, 999999, 999999]
+after quickSort isSorted = true [1, 1, 2, 2, 3]
+true
+before quickSort isSorted = false [1000000, 1000000, 1000000, 1000000, 999999]
+after quickSort isSorted = true [1, 2, 2, 3, 3]
+true
+Average quick sort time = 50 ms
+before heapsorts isSorted = false [1000000, 1000000, 1000000, 999999, 999999]
+after heapsorts isSorted = true [1, 1, 2, 2, 3]
+before heapsorts isSorted = false [1000000, 1000000, 999999, 999998, 999998]
+after heapsorts isSorted = true [1, 2, 3, 4, 5]
+before heapsorts isSorted = false [1000000, 1000000, 1000000, 999999, 999999]
+after heapsorts isSorted = true [1, 2, 3, 4, 5]
+before heapsorts isSorted = false [1000000, 1000000, 1000000, 999998, 999998]
+after heapsorts isSorted = true [1, 1, 2, 2, 2]
+before heapsorts isSorted = false [1000000, 999999, 999998, 999998, 999998]
+after heapsorts isSorted = true [1, 1, 1, 2, 2]
+before heapsorts isSorted = false [1000000, 1000000, 1000000, 999999, 999999]
+after heapsorts isSorted = true [2, 2, 3, 5, 5]
+before heapsorts isSorted = false [1000000, 1000000, 999998, 999997, 999997]
+after heapsorts isSorted = true [1, 1, 1, 2, 3]
+before heapsorts isSorted = false [1000000, 1000000, 1000000, 1000000, 999999]
+after heapsorts isSorted = true [1, 1, 3, 3, 3]
+before heapsorts isSorted = false [1000000, 1000000, 999999, 999999, 999999]
+after heapsorts isSorted = true [1, 1, 2, 2, 3]
+before heapsorts isSorted = false [1000000, 1000000, 1000000, 1000000, 999999]
+after heapsorts isSorted = true [1, 2, 2, 3, 3]
+Average heap sort time = 193 ms

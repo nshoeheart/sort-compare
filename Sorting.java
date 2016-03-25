@@ -20,8 +20,11 @@ public class Sorting {
     }
 
     private static void printArray(int[] arr, String msg) {
-        System.out.print(msg + " [" + arr[0]);
-        for (int i = 1; i < arr.length; i++) {
+        System.out.print(
+          msg + 
+          " isSorted = " + isSorted( arr, 0, arr.length - 1 ) +
+          " [" + arr[0]);
+        for (int i = 1; i < 5 /* arr.length */; i++) {
             System.out.print(", " + arr[i]);
         }
         System.out.println("]");
@@ -317,9 +320,11 @@ public class Sorting {
             System.arraycopy(arr, 0, arrayToSort, 0, size);
             System.arraycopy(arr, 0, tempArr, 0, size);
 
+            printArray(arrayToSort, "before StdMergeSort");
             start = System.currentTimeMillis();
             mergeSort(arrayToSort, 0, size - 1);
             totalTime += (System.currentTimeMillis() - start);
+            printArray(arrayToSort, "after StdMergeSort");
         }
 
         System.out.println(String.format("Average standard merge sort time = %d ms", (totalTime / arrays.length)));
@@ -335,9 +340,11 @@ public class Sorting {
             System.arraycopy(arr, 0, arrayToSort, 0, size);
             System.arraycopy(arr, 0, tempArr, 0, size);
 
+            printArray(arrayToSort, "before BUMergeSort");
             start = System.currentTimeMillis();
             bottomUpMergeSort(arrayToSort);
             totalTime += (System.currentTimeMillis() - start);
+            printArray(arrayToSort, "after BUMergeSort");
         }
 
         System.out.println(String.format("Average bottom-up merge sort time = %d ms", (totalTime / arrays.length)));
@@ -352,9 +359,10 @@ public class Sorting {
             System.arraycopy(arr, 0, arrayToSort, 0, size);
 
             start = System.currentTimeMillis();
+            printArray(arrayToSort, "before quickSort");
             quickSort(arrayToSort, 0, size - 1);
             totalTime += (System.currentTimeMillis() - start);
-            //printArray(arrayToSort, "");
+            printArray(arrayToSort, "after quickSort");
             System.out.println(isSorted(arrayToSort, 0, size - 1));
         }
 
@@ -369,9 +377,11 @@ public class Sorting {
         for (int[] arr : arrays) {
             System.arraycopy(arr, 0, arrayToSort, 0, size);
 
+            printArray(arrayToSort, "before builtinSort");
             start = System.currentTimeMillis();
             Arrays.sort(arrayToSort);
             totalTime += (System.currentTimeMillis() - start);
+            printArray(arrayToSort, "after builtinSort");
         }
 
         System.out.println(String.format("Average built-in sort time = %d ms", (totalTime / arrays.length)));
@@ -385,9 +395,11 @@ public class Sorting {
         for (int[] arr : arrays) {
             System.arraycopy(arr, 0, arrayToSort, 0, size);
 
+            printArray(arrayToSort, "before heapsorts");
             start = System.currentTimeMillis();
             heapSort(arrayToSort);
             totalTime += (System.currentTimeMillis() - start);
+            printArray(arrayToSort, "after heapsorts");
         }
 
         System.out.println(String.format("Average heap sort time = %d ms", (totalTime / arrays.length)));
@@ -401,9 +413,11 @@ public class Sorting {
         for (int[] arr : arrays) {
             System.arraycopy(arr, 0, arrayToSort, 0, size);
 
+            printArray(arrayToSort, "before insertionSort");
             start = System.currentTimeMillis();
             insertionSort(arrayToSort);
             totalTime += (System.currentTimeMillis() - start);
+            printArray(arrayToSort, "after insertionSort");
         }
 
         System.out.println(String.format("Average insertion sort time = %d ms", (totalTime / arrays.length)));
@@ -413,9 +427,9 @@ public class Sorting {
         randomGenerator = new Random();
         int numArrays = 10;
 
-        //problem1(numArrays);
-        //problem2(numArrays);
-        //problem3(numArrays);
+        problem1(numArrays);
+        problem2(numArrays);
+        problem3(numArrays);
         problem4(numArrays);
         problem5(numArrays);
     }
