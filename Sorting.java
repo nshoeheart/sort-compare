@@ -271,11 +271,27 @@ public class Sorting {
         }
     }
 
-    private static int[] getRandomArray(int max, int size) {
+    private static int[] getRandomArray(int size, int max) {
         int[] arr = new int[size];
 
         for (int i = 0; i < size; i++) {
             arr[i] = randomGenerator.nextInt(max);
+        }
+
+        return arr;
+    }
+
+    private static int[] getNearlySortedArray(int size, int numInversions) {
+        int[] arr = new int[size];
+
+        for (int i = 1; i <= size; i++) {
+            arr[i-1] = i;
+        }
+
+        for (int i = 0; i < numInversions; i++) {
+            int j  = randomGenerator.nextInt(size);
+            int k  = randomGenerator.nextInt(size);
+            exchange(arr, j, k);
         }
 
         return arr;
@@ -349,7 +365,7 @@ public class Sorting {
         System.out.println(String.format("Average built-in sort time = %d ms", (totalTime / arrays.length)));
     }
 
-    private static void runHeapsorts(int[][] arrays, int size) {
+    private static void runHeapSorts(int[][] arrays, int size) {
         int[] arrayToSort = new int[size];
         long start;
         long totalTime = 0;
@@ -365,11 +381,28 @@ public class Sorting {
         System.out.println(String.format("Average heap sort time = %d ms", (totalTime / arrays.length)));
     }
 
+    private static void runInsertionSorts(int[][] arrays, int size) {
+        int[] arrayToSort = new int[size];
+        long start;
+        long totalTime = 0;
+
+        for (int[] arr : arrays) {
+            System.arraycopy(arr, 0, arrayToSort, 0, size);
+
+            start = System.currentTimeMillis();
+            insertionSort(arrayToSort);
+            totalTime += (System.currentTimeMillis() - start);
+        }
+
+        System.out.println(String.format("Average insertion sort time = %d ms", (totalTime / arrays.length)));
+    }
+
     public static void main(String[] args) {
         randomGenerator = new Random();
         //problem1();
         //problem2();
-        problem3();
+        //problem3();
+        problem4();
     }
 
     private static void problem1() {
@@ -386,7 +419,7 @@ public class Sorting {
                 int[][] arrays = new int[numArrays][numInts];
 
                 for (int[] arr : arrays) {
-                    System.arraycopy(getRandomArray(intRange, numInts), 0, arr, 0, numInts);
+                    System.arraycopy(getRandomArray(numInts, intRange), 0, arr, 0, numInts);
                 }
 
                 // Sort arrays with standard merge sort
@@ -417,7 +450,7 @@ public class Sorting {
                 int[][] arrays = new int[numArrays][numInts];
 
                 for (int[] arr : arrays) {
-                    System.arraycopy(getRandomArray(intRange, numInts), 0, arr, 0, numInts);
+                    System.arraycopy(getRandomArray(numInts, intRange), 0, arr, 0, numInts);
                 }
 
                 // Run algorithms for base case
@@ -467,7 +500,7 @@ public class Sorting {
                 int[][] arrays = new int[numArrays][numInts];
 
                 for (int[] arr : arrays) {
-                    System.arraycopy(getRandomArray(intRange, numInts), 0, arr, 0, numInts);
+                    System.arraycopy(getRandomArray(numInts, intRange), 0, arr, 0, numInts);
                 }
 
                 System.out.print("Using median pivot best-case quick sort: ");
@@ -478,7 +511,7 @@ public class Sorting {
 
                 runBuiltInSorts(arrays, numInts);
 
-                runHeapsorts(arrays, numInts);
+                runHeapSorts(arrays, numInts);
 
                 stopRecursionIfSorted = false;
                 useInsertSortForShorties = true;
@@ -492,6 +525,31 @@ public class Sorting {
 
                 System.out.println();
             }
+        }
+    }
+
+    public static void problem4() {
+        System.out.println("\nRunning problem 4...\n");
+
+        int numArrays = 100;
+        int numInversions = 100;
+        int numInts = 2000000;
+        int[] intRangeOpts = {10000, 100000, 1000000};
+
+        for (int intRange : intRangeOpts) {
+            System.out.println(String.format("Generating %d sets of nearly-sorted arrays with %d ints between 1 and %d", numArrays, numInts, intRange));
+            int[][] arrays = new int[numArrays][numInts];
+
+            for (int[] arr : arrays) {
+                System.arraycopy(getNearlySortedArray(numInts, numInversions), 0, arr, 0, numInts);
+            }
+
+            runInsertionSorts(arrays, numInts);
+
+            medianQuickSort = false;
+            stopRecursionIfSorted = true;
+            useInsertSortForShorties = false;
+            runQuickSorts(arrays, numInts);
         }
     }
 }
